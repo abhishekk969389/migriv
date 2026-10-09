@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import type { IconType } from "react-icons";
@@ -10,7 +13,7 @@ export default function ThankYouSection() {
   if (!data) return null;
 
   return (
-    <section className="relative w-full overflow-hidden bg-white">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative w-full overflow-hidden bg-white">
       {/* Image: full width on mobile (behind a white veil). On lg+ its width is tied to the
           1320px container (50% + 106px), so on wide screens it does NOT keep growing and the
           tower is not over-zoomed; it still touches the right edge of the screen. */}
@@ -83,6 +86,6 @@ export default function ThankYouSection() {
           })}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

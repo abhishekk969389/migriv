@@ -1,11 +1,15 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
+import Counter from "@/app/components/ui/counter";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 import { site } from "@/data/index";
 import type { MigrivoAboutData } from "@/data/index";
 import { getIcon } from "@/app/components/ui/icons";
 
-export default function AboutSection() {
+export default function AboutSection({ hideButton = false }: { hideButton?: boolean } = {}) {
   const data: MigrivoAboutData = site.about;
   if (!data) return null;
 
@@ -14,7 +18,7 @@ export default function AboutSection() {
   const BadgeIcon = getIcon(data.badgeIcon);
 
   return (
-    <section className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-8 xl:gap-12">
           <div>
@@ -54,13 +58,15 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <Link
-              href={data.cta.href}
-              className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#f26a0f] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-300/50 transition-colors hover:bg-[#d95a05] sm:text-base"
-            >
-              {data.cta.label}
-              <FiArrowRight size={18} />
-            </Link>
+            {!hideButton && (
+              <Link
+                href={data.cta.href}
+                className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#f26a0f] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-300/50 transition-colors hover:bg-[#d95a05] sm:text-base"
+              >
+                {data.cta.label}
+                <FiArrowRight size={18} />
+              </Link>
+            )}
           </div>
 
           <div className="relative mx-auto aspect-[675/565] w-full max-w-[680px]">
@@ -104,7 +110,9 @@ export default function AboutSection() {
                   <StatsIcon className="h-5 w-5 sm:h-7 sm:w-7" />
                 </span>
                 <div className="leading-tight">
-                  <p className="text-lg font-bold sm:text-2xl md:text-3xl">{data.stats.number}</p>
+                  <p className="text-lg font-bold sm:text-2xl md:text-3xl">
+                    <Counter text={data.stats.number} />
+                  </p>
                   <p className="text-[10px] sm:text-sm md:text-base">{data.stats.label}</p>
                 </div>
               </div>
@@ -112,6 +120,6 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

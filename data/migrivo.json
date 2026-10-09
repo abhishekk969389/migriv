@@ -22,39 +22,39 @@
         "variants": {
           "MigrivoTopBar1": {
             "address": {
-              "label": "123 Business Street, New Delhi, India"
+              "label": "123 Business Street, New York, USA"
             },
             "email": {
-              "label": "info@migrivo.com",
-              "href": "mailto:info@migrivo.com"
+              "label": "dummyxyz@gamil.com",
+              "href": "mailto:dummyxyz@gamil.com"
             },
             "phone": {
-              "label": "+91 98765 43210",
-              "href": "tel:+919876543210"
+              "label": "+1 000000000",
+              "href": "tel:+1 000000000"
             },
             "socials": [
               {
                 "id": "1",
                 "label": "Facebook",
-                "href": "#",
+                "href": "https://www.facebook.com/",
                 "icon": "FaFacebookF"
               },
               {
                 "id": "2",
                 "label": "Instagram",
-                "href": "#",
+                "href": "https://www.instagram.com/",
                 "icon": "FaInstagram"
               },
               {
                 "id": "3",
                 "label": "LinkedIn",
-                "href": "#",
+                "href": "https://www.linkedin.com/",
                 "icon": "FaLinkedinIn"
               },
               {
                 "id": "4",
                 "label": "YouTube",
-                "href": "#",
+                "href": "/https://www.youtube.com/",
                 "icon": "FaYoutube"
               }
             ],
@@ -107,11 +107,6 @@
                 "href": "/service",
                 "children": [
                   {
-                    "id": "3-1",
-                    "label": "Services",
-                    "href": "/service"
-                  },
-                  {
                     "id": "3-2",
                     "label": "Student Visa",
                     "href": "/visa-services/student"
@@ -125,7 +120,21 @@
                     "id": "3-4",
                     "label": "Business Visa",
                     "href": "/visa-services/business"
-                  }
+                  }, {
+                "id": "4",
+                "label": "Family Visa",
+                "href": "/visa-services/family"
+              },
+              {
+                "id": "5",
+                "label": "Tourist Visa",
+                "href": "/visa-services/tourist"
+              },
+              {
+                "id": "6",
+                "label": "PR & Immigration",
+                "href": "/visa-services/permanent-residency"
+              }
                 ]
               },
               {
@@ -140,8 +149,8 @@
               }
             ],
             "phone": {
-              "label": "+91 98765 43210",
-              "number": "+919876543210",
+              "label": "+1 0000000000",
+              "number": "+1 000000000",
               "text": "Call Us Now"
             },
             "cta": {
@@ -162,7 +171,7 @@
             "description": "Expert guidance for your study, work, visit or permanent residency journey.",
             "primaryBtn": {
               "label": "Explore Services",
-              "href": "/visa-services"
+              "href": "/service"
             },
             "secondaryBtn": {
               "label": "Contact Now",
@@ -215,9 +224,9 @@
               "href": "/about"
             },
             "images": {
-              "passports": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
-              "traveler": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80",
-              "canada": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=900&q=80"
+              "passports": "/about/a2.jpg",
+              "traveler": "/about/a3.jpg",
+              "canada": "/about/a1.jpg"
             },
             "stats": {
               "number": "3800+",
@@ -231,7 +240,7 @@
       "Process": {
         "variants": {
           "MigrivoProcess1": {
-            "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+            "bgImage": "/destination/aus.jpg",
             "badge": "Our Process",
             "titlePrefix": "Our Visa",
             "titleHighlight": "Process",
@@ -270,7 +279,7 @@
             ],
             "cta": {
               "label": "Get a Quote",
-              "href": "/contact"
+              "href": "/enquiry"
             }
           }
         }
@@ -288,7 +297,7 @@
                 "title": "Student Visa",
                 "text": "Study at top universities across the world.",
                 "href": "/visa-services/student",
-                "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s1.jpg",
                 "icon": "FaGraduationCap"
               },
               {
@@ -296,7 +305,7 @@
                 "title": "Business Visa",
                 "text": "Expand your business opportunities globally.",
                 "href": "/visa-services/business",
-                "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s2.jpg",
                 "icon": "FaBriefcase"
               },
               {
@@ -304,7 +313,7 @@
                 "title": "Family Visa",
                 "text": "Reunite with your loved ones abroad.",
                 "href": "/visa-services/family",
-                "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s3.jpg",
                 "icon": "FaUsers"
               },
               {
@@ -312,7 +321,7 @@
                 "title": "Tourist Visa",
                 "text": "Explore new destinations with ease.",
                 "href": "/visa-services/tourist",
-                "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s4.jpg",
                 "icon": "FaCamera"
               },
               {
@@ -320,7 +329,7 @@
                 "title": "Work Visa",
                 "text": "Build your international career with confidence.",
                 "href": "/visa-services/work",
-                "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s5.jpg",
                 "icon": "FaTools"
               },
               {
@@ -328,7 +337,7 @@
                 "title": "Permanent Residency",
                 "text": "Settle in your dream country for a brighter future.",
                 "href": "/visa-services/permanent-residency",
-                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s1.jpg",
                 "icon": "FaHome"
               },
               {
@@ -336,7 +345,7 @@
                 "title": "Investor Visa",
                 "text": "Invest in global opportunities with expert support.",
                 "href": "/visa-services/investor",
-                "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s2.jpg",
                 "icon": "FaChartLine"
               },
               {
@@ -344,7 +353,7 @@
                 "title": "Dependent Visa",
                 "text": "Bring your family members with you abroad.",
                 "href": "/visa-services/dependent",
-                "image": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?auto=format&fit=crop&w=700&q=80",
+                "image": "/services/s3.jpg",
                 "icon": "FaUserFriends"
               }
             ]
@@ -364,7 +373,7 @@
                 "name": "Canada",
                 "text": "Study, work and settle in a land of opportunities.",
                 "href": "/countries/canada",
-                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                "image": "/destination/canada.jpg",
                 "flag": "CA"
               },
               {
@@ -372,7 +381,7 @@
                 "name": "USA",
                 "text": "Build your future in the world's leading economy.",
                 "href": "/countries/usa",
-                "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                "image": "/destination/usa.jpg",
                 "flag": "US"
               },
               {
@@ -380,7 +389,7 @@
                 "name": "UK",
                 "text": "World-class education and global career growth.",
                 "href": "/countries/uk",
-                "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                "image": "/destination/uk.jpg",
                 "flag": "GB"
               },
               {
@@ -388,7 +397,7 @@
                 "name": "Australia",
                 "text": "High-quality education and pristine lifestyle.",
                 "href": "/countries/australia",
-                "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                "image": "/destination/aus.jpg",
                 "flag": "AU"
               },
               {
@@ -396,7 +405,7 @@
                 "name": "Germany",
                 "text": "Innovation, career opportunities and a strong future.",
                 "href": "/countries/germany",
-                "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                "image": "/destination/germany.jpg",
                 "flag": "DE"
               },
               {
@@ -404,13 +413,13 @@
                 "name": "New Zealand",
                 "text": "Live, work and explore a better tomorrow.",
                 "href": "/countries/new-zealand",
-                "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                "image": "/destination/nz.jpg",
                 "flag": "NZ"
               }
             ],
             "cta": {
               "label": "View All Destinations",
-              "href": "/countries"
+              "href": "/destination"
             }
           }
         }
@@ -418,7 +427,7 @@
       "Testimonial": {
         "variants": {
           "MigrivoTestimonial1": {
-            "sideImage": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1000&q=80",
+            "sideImage": "/about/a1.jpg",
             "stats": {
               "number": "3800+",
               "label": "Happy Clients",
@@ -434,42 +443,42 @@
                 "name": "Rohit Sharma",
                 "visa": "Canada Student Visa",
                 "text": "The team made my Canada student visa process so simple. They guided me at every step, from documentation to final approval. Highly recommended!",
-                "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+                "avatar": "/tes/t1.jpg"
               },
               {
                 "id": "2",
                 "name": "Priya Mehta",
                 "visa": "Australia PR Visa",
                 "text": "Professional, transparent and very supportive throughout my Australia PR process. They answered all my queries and kept me updated regularly. Great experience!",
-                "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+                "avatar": "/tes/t2.jpg"
               },
               {
                 "id": "3",
                 "name": "Amit Verma",
                 "visa": "UK Work Visa",
                 "text": "I got my UK work visa faster than I expected. Every document was checked twice and the advice on interview preparation was spot on.",
-                "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+                "avatar": "/tes/t3.jpg"
               },
               {
                 "id": "4",
                 "name": "Neha Kapoor",
                 "visa": "Germany Job Seeker Visa",
                 "text": "From the first consultation to the visa stamp, the support was clear and honest. They never promised more than they could deliver.",
-                "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80"
+                "avatar": "/tes/t4.jpg"
               },
               {
                 "id": "5",
                 "name": "Karan Singh",
                 "visa": "USA Business Visa",
                 "text": "Our business trip visa had a tight deadline and the team handled everything smoothly. Quick replies and zero confusion.",
-                "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80"
+                "avatar": "/tes/t2.jpg"
               },
               {
                 "id": "6",
                 "name": "Anjali Nair",
                 "visa": "New Zealand Family Visa",
                 "text": "They helped our whole family move with confidence. The checklist and regular updates made a stressful process feel easy.",
-                "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+                "avatar": "/tes/t4.jpg"
               }
             ]
           }
@@ -506,7 +515,7 @@
                 "month": "Nov",
                 "title": "Requirements for Vaccination for Immigrant Visa Applicants",
                 "excerpt": "The application process for a tourist visa often involves submitting documentation such as a valid passport and proof of travel plans.",
-                "image": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s3.jpg"
               },
               {
                 "id": "2",
@@ -515,7 +524,7 @@
                 "month": "Nov",
                 "title": "Travelling America for Tourism or Business Meeting",
                 "excerpt": "With the promise of swift processing, clients can have peace of mind knowing that their travel plans are in good hands.",
-                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s4.jpg"
               },
               {
                 "id": "3",
@@ -524,12 +533,12 @@
                 "month": "Dec",
                 "title": "Cultural Encounters And Connections Cruise Booking And Packages",
                 "excerpt": "Their services typically include eligibility assessments document preparation application submission and updates on the latest immigration policies many agencies.",
-                "image": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80"
+                "image": "/services/s1.jpg"
               }
             ],
             "cta": {
               "label": "View All Blogs",
-              "href": "/blogs"
+              "href": "/blog"
             }
           }
         }
@@ -557,7 +566,7 @@
               {
                 "id": "3",
                 "label": "Visa Services",
-                "href": "/visa-services"
+                "href": "/service"
               },
               {
                 "id": "4",
@@ -605,11 +614,6 @@
                 "id": "6",
                 "label": "PR & Immigration",
                 "href": "/visa-services/permanent-residency"
-              },
-              {
-                "id": "7",
-                "label": "Visa Consultation",
-                "href": "/contact"
               }
             ],
             "destinations": [
@@ -642,41 +646,31 @@
                 "id": "6",
                 "label": "Germany",
                 "href": "/countries/germany"
-              },
-              {
-                "id": "7",
-                "label": "Europe",
-                "href": "/countries/europe"
-              },
-              {
-                "id": "8",
-                "label": "Dubai",
-                "href": "/countries/dubai"
               }
             ],
             "socials": [
               {
                 "id": "1",
                 "label": "Facebook",
-                "href": "#",
+                "href": "https://www.facebook.com/",
                 "icon": "FaFacebookF"
               },
               {
                 "id": "2",
                 "label": "Instagram",
-                "href": "#",
+                "href": "https://www.instagram.com/",
                 "icon": "FaInstagram"
               },
               {
                 "id": "3",
                 "label": "LinkedIn",
-                "href": "#",
+                "href": "https://www.linkedin.com/",
                 "icon": "FaLinkedinIn"
               },
               {
                 "id": "4",
                 "label": "YouTube",
-                "href": "#",
+                "href": "https://www.youtube.com/",
                 "icon": "FaYoutube"
               }
             ],
@@ -686,24 +680,24 @@
                 "icon": "FaMapMarkerAlt",
                 "lines": [
                   "123 Business Street,",
-                  "New Delhi, India 110001"
+                  "New York, USA 110001"
                 ]
               },
               {
                 "id": "2",
                 "icon": "FaPhoneAlt",
                 "lines": [
-                  "+91 98765 43210"
+                  "+1 0000000000"
                 ],
-                "href": "tel:+919876543210"
+                "href": "tel:+1 0000000000"
               },
               {
                 "id": "3",
                 "icon": "FaEnvelope",
                 "lines": [
-                  "info@migrivo.in"
+                  "dummyxyz@gamil.com"
                 ],
-                "href": "mailto:info@migrivo.in"
+                "href": "mailto:dummyxyz@gamil.com"
               },
               {
                 "id": "4",
@@ -714,7 +708,7 @@
                 ]
               }
             ],
-            "copyright": "© 2026 Migrivo. All Rights Reserved.",
+            "copyright": "© 2026 All Rights Reserved. Powered By Lestow",
             "bottomLinks": [
               {
                 "id": "1",
@@ -730,7 +724,7 @@
           "MigrivoSubBanners1": {
             "about": {
               "title": "About Us",
-              "bgImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+              "bgImage": "/subbanner.png",
               "breadcrumbs": [
                 {
                   "label": "Home",
@@ -744,7 +738,7 @@
             },
             "service": {
               "title": "Services",
-              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "bgImage": "/subbanner.png",
               "breadcrumbs": [
                 {
                   "label": "Home",
@@ -758,7 +752,7 @@
             },
             "destinations": {
               "title": "Destinations",
-              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "bgImage": "/subbanner.png",
               "breadcrumbs": [
                 {
                   "label": "Home",
@@ -772,7 +766,7 @@
             },
             "gallery": {
               "title": "Gallery",
-              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "bgImage": "/subbanner.png",
               "breadcrumbs": [
                 {
                   "label": "Home",
@@ -786,7 +780,7 @@
             },
             "blog": {
               "title": "Blogs",
-              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "bgImage": "/subbanner.png",
               "breadcrumbs": [
                 {
                   "label": "Home",
@@ -800,7 +794,7 @@
             },
             "enquiry": {
               "title": "Enquire Now",
-              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "bgImage": "/subbanner.png",
               "breadcrumbs": [
                 {
                   "label": "Home",
@@ -814,7 +808,7 @@
             },
             "contact": {
               "title": "Contact Us",
-              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "bgImage": "/subbanner.png",
               "breadcrumbs": [
                 {
                   "label": "Home",
@@ -837,7 +831,7 @@
               "titlePrefix": "Trusted Expertise for Your",
               "titleHighlight": "Global Journey",
               "description": "We are committed to providing reliable, transparent and personalized visa consultancy services to help you achieve your international goals with confidence.",
-              "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1000&q=80",
+              "image": "/services/s2.jpg",
               "features": [
                 {
                   "title": "Experienced Team",
@@ -879,7 +873,7 @@
                 "category": "Travel Guide",
                 "title": "Top Tourist Attractions You Must Visit in France",
                 "excerpt": "Discover the most iconic places, local experiences and travel tips for an unforgettable trip to France.",
-                "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s3.jpg"
               },
               {
                 "slug": "step-by-step-tourist-visa",
@@ -888,7 +882,7 @@
                 "category": "Visa Tips",
                 "title": "Step-by-Step Guide to Apply for a Tourist Visa",
                 "excerpt": "Learn the complete process, required documents and expert tips to ensure a smooth visa application.",
-                "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s4.jpg"
               },
               {
                 "slug": "why-australia-top-choice",
@@ -897,7 +891,7 @@
                 "category": "Destinations",
                 "title": "Why Australia is a Top Choice for Travelers",
                 "excerpt": "Explore stunning landscapes, vibrant cities and unique experiences that make Australia special.",
-                "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s5.jpg"
               },
               {
                 "slug": "study-in-canada-benefits",
@@ -906,7 +900,7 @@
                 "category": "Study Abroad",
                 "title": "Study in Canada: Benefits, Requirements and Opportunities",
                 "excerpt": "Find out why Canada is a top destination for international students and how to get started.",
-                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s5.jpg"
               },
               {
                 "slug": "essential-travel-tips",
@@ -915,7 +909,7 @@
                 "category": "Travel Tips",
                 "title": "Essential Travel Tips for a Hassle-Free Journey",
                 "excerpt": "From packing tips to safety advice, here's everything you need to know before your next trip.",
-                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s3.jpg"
               },
               {
                 "slug": "latest-uk-visa-updates",
@@ -924,7 +918,7 @@
                 "category": "Visa Updates",
                 "title": "Latest UK Visa Updates You Should Know",
                 "excerpt": "Stay updated with the recent changes in UK visa rules, processing times and new requirements.",
-                "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=900&q=80"
+                "image": "/services/s2.jpg"
               }
             ]
           }
@@ -938,26 +932,26 @@
                 "title": "Call Us",
                 "text": "Speak with our travel experts for instant assistance.",
                 "lines": [
-                  "+91 98765 43210"
+                  "+1 0000000000"
                 ],
-                "href": "tel:+919876543210",
+                "href": "tel:+1 0000000000",
                 "icon": "FiPhone"
               },
               {
                 "title": "Email Us",
                 "text": "Drop us an email and we'll get back to you soon.",
                 "lines": [
-                  "info@migrivo.com"
+                  "dummyxyz@gamil.com"
                 ],
-                "href": "mailto:info@migrivo.com",
+                "href": "mailto:dummyxyz@gamil.com",
                 "icon": "FiMail"
               },
               {
                 "title": "Visit Our Office",
                 "text": "Come meet us at our office for personalized support.",
                 "lines": [
-                  "123 Travel Street, Connaught Place,",
-                  "New Delhi – 110001, India"
+                  "123 Travel Street,",
+                  "New York – 110001, USA"
                 ],
                 "icon": "FiMapPin"
               },
@@ -991,8 +985,8 @@
               "title": "Visit Our Office",
               "description": "We'd love to meet you! Visit our office for personalized travel advice and detailed information.",
               "address": [
-                "123 Travel Street, Connaught Place,",
-                "New Delhi – 110001, India"
+                "123 Travel Street,",
+                "New York – 110001, USA"
               ],
               "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85923192592!2d77.23701088488971!3d28.522404036526275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1786345160037!5m2!1sen!2sin"
             }
@@ -1002,7 +996,7 @@
       "EnquiryPage": {
         "variants": {
           "MigrivoEnquiryPage1": {
-            "sideImage": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1000&q=80",
+            "sideImage": "/services/s1.jpg",
             "countries": [
               "India",
               "Canada",
@@ -1079,62 +1073,62 @@
             "images": [
               {
                 "id": "1",
-                "photo": "1502602898657-3e91760cbb34",
+                "photo": "/destination/uk.jpg",
                 "alt": "Eiffel Tower at sunset"
               },
               {
                 "id": "2",
-                "photo": "1436491865332-7a61a109cc05",
+                "photo": "/about/a1.jpg",
                 "alt": "Passport and boarding pass"
               },
               {
                 "id": "3",
-                "photo": "1521791136064-7986c2920216",
+                "photo": "/tes/t1.jpg",
                 "alt": "Client consultation meeting"
               },
               {
                 "id": "4",
-                "photo": "1517935706615-2717063c2225",
+                "photo": "/destination/canada.jpg",
                 "alt": "Toronto skyline with CN Tower"
               },
               {
                 "id": "5",
-                "photo": "1485738422979-f5c462d49f74",
+                "photo": "/destination/usa.jpg",
                 "alt": "New York skyline"
               },
               {
                 "id": "6",
-                "photo": "1523482580672-f109ba8cb9be",
+                "photo": "/destination/aus.jpg",
                 "alt": "Sydney Opera House"
               },
               {
                 "id": "7",
-                "photo": "1501785888041-af3ef285b470",
+                "photo": "/about/a2.jpg",
                 "alt": "Traveler at a mountain lake"
               },
               {
                 "id": "8",
-                "photo": "1450101499163-c8848c66ca85",
+                "photo": "/services/s1.jpg",
                 "alt": "Visa documents being signed"
               },
               {
                 "id": "9",
-                "photo": "1529655683826-aba9b3e77383",
+                "photo": "/destination/germany.jpg",
                 "alt": "London with Big Ben"
               },
               {
                 "id": "10",
-                "photo": "1488646953014-85cb44e25828",
+                "photo": "/services/s2.jpg",
                 "alt": "Travelers at the airport"
               },
               {
                 "id": "11",
-                "photo": "1512453979798-5ea266f8880c",
+                "photo": "/services/s3.jpg",
                 "alt": "Dubai skyline"
               },
               {
                 "id": "12",
-                "photo": "1454165804606-c3d57bc86b40",
+                "photo": "/tes/t2.jpg",
                 "alt": "Immigration paperwork on a desk"
               }
             ],
@@ -1150,7 +1144,7 @@
                 "title": "Your Journey Starts Here",
                 "subtitle": "Client Success Stories",
                 "duration": "02:18",
-                "photo": "1488646953014-85cb44e25828",
+                "photo": "/about/a3.jpg",
                 "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
               },
               {
@@ -1158,7 +1152,7 @@
                 "title": "Visa Application Process",
                 "subtitle": "Step by Step Guide",
                 "duration": "03:45",
-                "photo": "1521791136064-7986c2920216",
+                "photo": "/services/s4.jpg",
                 "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
               },
               {
@@ -1166,7 +1160,7 @@
                 "title": "Discover Canada",
                 "subtitle": "Top Places to Visit",
                 "duration": "01:52",
-                "photo": "1517935706615-2717063c2225",
+                "photo": "/destination/canada.jpg",
                 "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
               },
               {
@@ -1174,7 +1168,7 @@
                 "title": "Study in Australia",
                 "subtitle": "Opportunities & Lifestyle",
                 "duration": "02:30",
-                "photo": "1523482580672-f109ba8cb9be",
+                "photo": "/destination/aus.jpg",
                 "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
               }
             ]
@@ -1226,7 +1220,7 @@
                 "slug": "tourist",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -1250,7 +1244,7 @@
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "image": "/about/a1.jpg",
                   "floatingBadge": {
                     "icon": "FiMapPin",
                     "title": "Explore New Destinations",
@@ -1337,7 +1331,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/about/a2.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -1376,7 +1370,7 @@
                 "slug": "student",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -1400,7 +1394,7 @@
                     "A student visa allows you to study in another country. Whether you are planning a short course or a full degree program, we provide complete assistance to make your academic journey smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right institution to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+                  "image": "/about/a3.jpg",
                   "floatingBadge": {
                     "icon": "FiBookOpen",
                     "title": "World Class Education",
@@ -1487,7 +1481,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/destination/aus.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -1526,7 +1520,7 @@
                 "slug": "work",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -1550,7 +1544,7 @@
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "image": "/destination/canada.jpg",
                   "floatingBadge": {
                     "icon": "FiMapPin",
                     "title": "Explore New Destinations",
@@ -1637,7 +1631,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/destination/germany.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -1676,7 +1670,7 @@
                 "slug": "business",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -1700,7 +1694,7 @@
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "image": "/destination/nz.jpg",
                   "floatingBadge": {
                     "icon": "FiMapPin",
                     "title": "Explore New Destinations",
@@ -1787,7 +1781,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/destination/uk.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -1826,7 +1820,7 @@
                 "slug": "family",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -1850,7 +1844,7 @@
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "image": "/destination/usa.jpg",
                   "floatingBadge": {
                     "icon": "FiMapPin",
                     "title": "Explore New Destinations",
@@ -1937,7 +1931,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/services/s1.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -1976,7 +1970,7 @@
                 "slug": "permanent-residency",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -2000,7 +1994,7 @@
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "image": "/services/s2.jpg",
                   "floatingBadge": {
                     "icon": "FiMapPin",
                     "title": "Explore New Destinations",
@@ -2087,7 +2081,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/services/s3.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -2126,7 +2120,7 @@
                 "slug": "investor",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -2150,7 +2144,7 @@
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "image": "/services/s4.jpg",
                   "floatingBadge": {
                     "icon": "FiMapPin",
                     "title": "Explore New Destinations",
@@ -2237,7 +2231,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/services/s5.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -2276,7 +2270,7 @@
                 "slug": "dependent",
                 "subBanner": {
                   "title": "Services Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -2300,7 +2294,7 @@
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
-                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "image": "/tes/t1.jpg",
                   "floatingBadge": {
                     "icon": "FiMapPin",
                     "title": "Explore New Destinations",
@@ -2387,7 +2381,7 @@
                     "Flight Booking Details",
                     "Additional Documents (as per country)"
                   ],
-                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                  "image": "/tes/t2.jpg"
                 },
                 "destinations": {
                   "badge": "POPULAR DESTINATIONS",
@@ -2434,7 +2428,7 @@
                 "slug": "canada",
                 "subBanner": {
                   "title": "Destinations Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -2458,7 +2452,7 @@
                     "Canada is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, Canada offers endless opportunities for students, professionals, families, and tourists.",
                     "Whether you're planning to study, work, visit, or settle, Canada welcomes global talent and offers a safe, inclusive, and prosperous environment."
                   ],
-                  "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=800&q=80",
+                  "image": "/destination/canada.jpg",
                   "features": [
                     {
                       "icon": "FaGraduationCap",
@@ -2532,42 +2526,42 @@
                   "description": "From breathtaking natural wonders to vibrant cities, Canada offers unforgettable experiences.",
                   "items": [
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/usa.jpg",
                       "title": "Top Destination 1",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a1.jpg",
                       "title": "Top Destination 2",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a2.jpg",
                       "title": "Top Destination 3",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a3.jpg",
                       "title": "Top Destination 4",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/aus.jpg",
                       "title": "Top Destination 5",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/canada.jpg",
                       "title": "Top Destination 6",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/germany.jpg",
                       "title": "Top Destination 7",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/nz.jpg",
                       "title": "Top Destination 8",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
@@ -2622,7 +2616,7 @@
                     "titlePrefix": "Start Your",
                     "titleHighlight": "Canada Journey",
                     "text": "Get expert consultation and make your visa process simple and hassle-free.",
-                    "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                    "image": "/destination/uk.jpg",
                     "buttonText": "Contact Us",
                     "buttonHref": "/contact"
                   }
@@ -2632,7 +2626,7 @@
                 "slug": "usa",
                 "subBanner": {
                   "title": "Destinations Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -2656,7 +2650,7 @@
                     "USA is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, USA offers endless opportunities for students, professionals, families, and tourists.",
                     "Whether you're planning to study, work, visit, or settle, USA welcomes global talent and offers a safe, inclusive, and prosperous environment."
                   ],
-                  "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=800&q=80",
+                  "image": "/services/s1.jpg",
                   "features": [
                     {
                       "icon": "FaGraduationCap",
@@ -2730,42 +2724,42 @@
                   "description": "From breathtaking natural wonders to vibrant cities, USA offers unforgettable experiences.",
                   "items": [
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s2.jpg",
                       "title": "Top Destination 1",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s3.jpg",
                       "title": "Top Destination 2",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s4.jpg",
                       "title": "Top Destination 3",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s5.jpg",
                       "title": "Top Destination 4",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/uk.jpg",
                       "title": "Top Destination 5",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/aus.jpg",
                       "title": "Top Destination 6",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/germany.jpg",
                       "title": "Top Destination 7",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/nz.jpg",
                       "title": "Top Destination 8",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
@@ -2820,7 +2814,7 @@
                     "titlePrefix": "Start Your",
                     "titleHighlight": "USA Journey",
                     "text": "Get expert consultation and make your visa process simple and hassle-free.",
-                    "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                    "image": "/about/a1.jpg",
                     "buttonText": "Contact Us",
                     "buttonHref": "/contact"
                   }
@@ -2830,7 +2824,7 @@
                 "slug": "uk",
                 "subBanner": {
                   "title": "Destinations Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -2854,7 +2848,7 @@
                     "UK is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, UK offers endless opportunities for students, professionals, families, and tourists.",
                     "Whether you're planning to study, work, visit, or settle, UK welcomes global talent and offers a safe, inclusive, and prosperous environment."
                   ],
-                  "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=800&q=80",
+                  "image": "/about/a2.jpg",
                   "features": [
                     {
                       "icon": "FaGraduationCap",
@@ -2928,42 +2922,42 @@
                   "description": "From breathtaking natural wonders to vibrant cities, UK offers unforgettable experiences.",
                   "items": [
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a3.jpg",
                       "title": "Top Destination 1",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/aus.jpg",
                       "title": "Top Destination 2",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/canada.jpg",
                       "title": "Top Destination 3",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/germany.jpg",
                       "title": "Top Destination 4",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/nz.jpg",
                       "title": "Top Destination 5",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/uk.jpg",
                       "title": "Top Destination 6",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/usa.jpg",
                       "title": "Top Destination 7",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s1.jpg",
                       "title": "Top Destination 8",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
@@ -3018,7 +3012,7 @@
                     "titlePrefix": "Start Your",
                     "titleHighlight": "UK Journey",
                     "text": "Get expert consultation and make your visa process simple and hassle-free.",
-                    "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                    "image": "/services/s2.jpg",
                     "buttonText": "Contact Us",
                     "buttonHref": "/contact"
                   }
@@ -3028,7 +3022,7 @@
                 "slug": "australia",
                 "subBanner": {
                   "title": "Destinations Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -3052,7 +3046,7 @@
                     "Australia is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, Australia offers endless opportunities for students, professionals, families, and tourists.",
                     "Whether you're planning to study, work, visit, or settle, Australia welcomes global talent and offers a safe, inclusive, and prosperous environment."
                   ],
-                  "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=800&q=80",
+                  "image": "/services/s3.jpg",
                   "features": [
                     {
                       "icon": "FaGraduationCap",
@@ -3126,42 +3120,42 @@
                   "description": "From breathtaking natural wonders to vibrant cities, Australia offers unforgettable experiences.",
                   "items": [
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s4.jpg",
                       "title": "Top Destination 1",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s5.jpg",
                       "title": "Top Destination 2",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s1.jpg",
                       "title": "Top Destination 3",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s2.jpg",
                       "title": "Top Destination 4",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s3.jpg",
                       "title": "Top Destination 5",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s4.jpg",
                       "title": "Top Destination 6",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a1.jpg",
                       "title": "Top Destination 7",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a2.jpg",
                       "title": "Top Destination 8",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
@@ -3216,7 +3210,7 @@
                     "titlePrefix": "Start Your",
                     "titleHighlight": "Australia Journey",
                     "text": "Get expert consultation and make your visa process simple and hassle-free.",
-                    "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                    "image": "/about/a3.jpg",
                     "buttonText": "Contact Us",
                     "buttonHref": "/contact"
                   }
@@ -3226,7 +3220,7 @@
                 "slug": "germany",
                 "subBanner": {
                   "title": "Destinations Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -3250,7 +3244,7 @@
                     "Germany is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, Germany offers endless opportunities for students, professionals, families, and tourists.",
                     "Whether you're planning to study, work, visit, or settle, Germany welcomes global talent and offers a safe, inclusive, and prosperous environment."
                   ],
-                  "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=800&q=80",
+                  "image": "/destination/aus.jpg",
                   "features": [
                     {
                       "icon": "FaGraduationCap",
@@ -3324,42 +3318,42 @@
                   "description": "From breathtaking natural wonders to vibrant cities, Germany offers unforgettable experiences.",
                   "items": [
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/canada.jpg",
                       "title": "Top Destination 1",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/germany.jpg",
                       "title": "Top Destination 2",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/nz.jpg",
                       "title": "Top Destination 3",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/uk.jpg",
                       "title": "Top Destination 4",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/usa.jpg",
                       "title": "Top Destination 5",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s1.jpg",
                       "title": "Top Destination 6",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s2.jpg",
                       "title": "Top Destination 7",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s3.jpg",
                       "title": "Top Destination 8",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
@@ -3414,7 +3408,7 @@
                     "titlePrefix": "Start Your",
                     "titleHighlight": "Germany Journey",
                     "text": "Get expert consultation and make your visa process simple and hassle-free.",
-                    "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                    "image": "/services/s4.jpg",
                     "buttonText": "Contact Us",
                     "buttonHref": "/contact"
                   }
@@ -3424,7 +3418,7 @@
                 "slug": "new-zealand",
                 "subBanner": {
                   "title": "Destinations Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
@@ -3448,7 +3442,7 @@
                     "New Zealand is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, New Zealand offers endless opportunities for students, professionals, families, and tourists.",
                     "Whether you're planning to study, work, visit, or settle, New Zealand welcomes global talent and offers a safe, inclusive, and prosperous environment."
                   ],
-                  "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=800&q=80",
+                  "image": "/services/s5.jpg",
                   "features": [
                     {
                       "icon": "FaGraduationCap",
@@ -3522,42 +3516,42 @@
                   "description": "From breathtaking natural wonders to vibrant cities, New Zealand offers unforgettable experiences.",
                   "items": [
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/services/s5.jpg",
                       "title": "Top Destination 1",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a1.jpg",
                       "title": "Top Destination 2",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a2.jpg",
                       "title": "Top Destination 3",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a3.jpg",
                       "title": "Top Destination 4",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a1.jpg",
                       "title": "Top Destination 5",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a2.jpg",
                       "title": "Top Destination 6",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/about/a3.jpg",
                       "title": "Top Destination 7",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
-                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "image": "/destination/aus.jpg",
                       "title": "Top Destination 8",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
@@ -3612,7 +3606,7 @@
                     "titlePrefix": "Start Your",
                     "titleHighlight": "New Zealand Journey",
                     "text": "Get expert consultation and make your visa process simple and hassle-free.",
-                    "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                    "image": "/destination/canada.jpg",
                     "buttonText": "Contact Us",
                     "buttonHref": "/contact"
                   }
@@ -3630,19 +3624,23 @@
                 "slug": "top-tourist-attractions-france",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+                "image": "/destination/germany.jpg",
                 "meta": {
                   "date": "15 Aug 2026",
                   "author": "By Admin",
@@ -3680,19 +3678,23 @@
                 "slug": "step-by-step-tourist-visa",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=80",
+                "image": "/destination/nz.jpg",
                 "meta": {
                   "date": "12 Aug 2026",
                   "author": "By Admin",
@@ -3720,19 +3722,23 @@
                 "slug": "why-australia-top-choice",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1200&q=80",
+                "image": "/destination/uk.jpg",
                 "meta": {
                   "date": "09 Aug 2026",
                   "author": "By Admin",
@@ -3760,19 +3766,23 @@
                 "slug": "study-in-canada-benefits",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1200&q=80",
+                "image": "/destination/usa.jpg",
                 "meta": {
                   "date": "05 Aug 2026",
                   "author": "By Admin",
@@ -3800,19 +3810,23 @@
                 "slug": "essential-travel-tips",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+                "image": "/services/s1.jpg",
                 "meta": {
                   "date": "02 Aug 2026",
                   "author": "By Admin",
@@ -3840,19 +3854,23 @@
                 "slug": "latest-uk-visa-updates",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1200&q=80",
+                "image": "/services/s2.jpg",
                 "meta": {
                   "date": "28 Jul 2026",
                   "author": "By Admin",
@@ -3880,19 +3898,23 @@
                 "slug": "vaccination-requirements-immigrant-visa",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1200&q=80",
+                "image": "/services/s3.jpg",
                 "meta": {
                   "date": "01 Nov 2026",
                   "author": "By Admin",
@@ -3930,19 +3952,23 @@
                 "slug": "travelling-america-tourism-business",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+                "image": "/services/s4.jpg",
                 "meta": {
                   "date": "08 Nov 2026",
                   "author": "By Admin",
@@ -3980,19 +4006,23 @@
                 "slug": "cultural-encounters-cruise-booking",
                 "subBanner": {
                   "title": "Blogs Detail",
-                  "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+                  "bgImage": "/subbanner.png",
                   "breadcrumbs": [
                     {
                       "label": "Home",
                       "href": "/"
                     },
                     {
-                      "label": "Blogs Detail",
+                      "label": "Blog",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
                       "active": true
                     }
                   ]
                 },
-                "image": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80",
+                "image": "/services/s5.jpg",
                 "meta": {
                   "date": "10 Dec 2026",
                   "author": "By Admin",

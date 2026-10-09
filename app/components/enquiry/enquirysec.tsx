@@ -1,5 +1,7 @@
 "use client";
 
+
+import { motion } from "framer-motion";
 import { useState } from "react";
 import type { FormEvent, ReactNode } from "react";
 import Image from "next/image";
@@ -76,7 +78,7 @@ export default function EnquirySection() {
     `${inputBase} appearance-none pr-10 ${value ? "text-[#101D33]" : "text-slate-400"}`;
 
   return (
-    <section className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid items-start gap-6 lg:grid-cols-[1.45fr_1fr] lg:gap-8">
           {/* LEFT: form card */}
@@ -323,6 +325,6 @@ export default function EnquirySection() {
           </aside>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

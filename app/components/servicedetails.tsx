@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +10,7 @@ import { getIcon } from "@/app/components/ui/icons";
 export function Overview({ data }: { data: MigrivoServiceDetailsData["overview"] }) {
   const BadgeIcon = getIcon(data.floatingBadge.icon);
   return (
-    <section className="relative mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         {/* items-stretch: both columns get the same height */}
         <div className="grid gap-10 lg:grid-cols-2 lg:items-stretch lg:gap-16">
@@ -54,7 +57,7 @@ export function Overview({ data }: { data: MigrivoServiceDetailsData["overview"]
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
@@ -67,7 +70,7 @@ export function BenefitsAndEnquiry({
   enquiryForm: MigrivoServiceDetailsData["enquiryForm"];
 }) {
   return (
-    <section className="relative mt-16">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative mt-16">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid gap-10 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_450px]">
           {/* Left: Benefits */}
@@ -143,7 +146,7 @@ export function BenefitsAndEnquiry({
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
@@ -154,7 +157,7 @@ export function Process({ data }: { data: MigrivoServiceDetailsData["process"] }
     "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80";
 
   return (
-    <section className="mt-12 bg-[#f4f7fc] py-12">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="mt-12 bg-[#f4f7fc] py-12">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid gap-12 lg:grid-cols-[400px_1fr] xl:grid-cols-[450px_1fr] lg:gap-16 items-stretch">
           {/* Left: Image (full height of the row) */}
@@ -221,13 +224,13 @@ export function Process({ data }: { data: MigrivoServiceDetailsData["process"] }
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
 export function Documents({ data }: { data: MigrivoServiceDetailsData["documents"] }) {
   return (
-    <section className="relative mt-12">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative mt-12">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid items-stretch gap-10 lg:grid-cols-2 lg:gap-16">
           {/* Left Text */}
@@ -277,7 +280,7 @@ export function Documents({ data }: { data: MigrivoServiceDetailsData["documents
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
@@ -286,7 +289,7 @@ const unsplash = (id: string, w = 600) =>
 
 export function Destinations({ data }: { data: MigrivoServiceDetailsData["destinations"] }) {
   return (
-    <section className="mt-12">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="mt-12">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="inline-flex max-w-max items-center rounded-md border border-gray-200 bg-white px-3 py-1 text-[11px] font-bold tracking-wider text-slate-500 shadow-sm sm:text-xs">
           {data.badge}
@@ -317,7 +320,7 @@ export function Destinations({ data }: { data: MigrivoServiceDetailsData["destin
           })}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

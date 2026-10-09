@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { getIcon } from "@/app/components/ui/icons";
 import { site } from "@/data/index";
@@ -9,7 +12,7 @@ export default function WhyChooseUsSection() {
   if (!data) return null;
 
   return (
-    <section className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-8 xl:gap-12">
           {/* LEFT: content */}
@@ -94,6 +97,6 @@ export default function WhyChooseUsSection() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

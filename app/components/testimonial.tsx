@@ -1,7 +1,10 @@
 "use client";
 
+
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Counter from "@/app/components/ui/counter";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
 import { site } from "@/data/index";
@@ -37,7 +40,7 @@ export default function TestimonialsSection() {
   const next = () => setIndex((current + 1) % total);
 
   return (
-    <section className="w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       <div className="lg:flex lg:items-stretch">
         {/* LEFT: image touching the left edge of the screen */}
         <div className="relative h-72 w-full sm:h-96 lg:h-auto lg:min-h-[560px] lg:w-[33%] lg:shrink-0 xl:w-[37%]">
@@ -54,7 +57,9 @@ export default function TestimonialsSection() {
               <BadgeIcon size={26} />
             </span>
             <div className="leading-tight">
-              <p className="text-2xl font-bold text-[#101D33] sm:text-3xl">{data.stats.number}</p>
+              <p className="text-2xl font-bold text-[#101D33] sm:text-3xl">
+                <Counter text={data.stats.number} />
+              </p>
               <p className="text-sm text-slate-500 sm:text-base">{data.stats.label}</p>
             </div>
           </div>
@@ -161,6 +166,6 @@ export default function TestimonialsSection() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

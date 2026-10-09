@@ -6,9 +6,6 @@ import { FiChevronLeft, FiChevronRight, FiX, FiZoomIn } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { site } from "@/data/index";
 
-const unsplash = (id: string, w = 800) =>
-    `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=80`;
-
 /* -------------------------------- LIGHTBOX --------------------------------- */
 
 type Active = { kind: "image" | "video"; index: number };
@@ -104,7 +101,7 @@ function Lightbox({
                 {image && (
                     <Image
                         key={image.id}
-                        src={unsplash(image.photo, 1600)}
+                        src={image.photo}
                         alt={image.alt}
                         width={1600}
                         height={1067}
@@ -205,7 +202,7 @@ export default function GallerySection() {
                                 className="group relative aspect-[4/3] w-full cursor-zoom-in overflow-hidden rounded-xl bg-slate-100 shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0b63e5]"
                             >
                                 <Image
-                                    src={unsplash(img.photo, 700)}
+                                    src={img.photo}
                                     alt={img.alt}
                                     fill
                                     sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
@@ -241,7 +238,7 @@ export default function GallerySection() {
                             >
                                 <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-200 shadow-sm group-focus-visible:ring-2 group-focus-visible:ring-[#0b63e5]">
                                     <Image
-                                        src={unsplash(v.photo, 700)}
+                                        src={v.photo}
                                         alt={v.title}
                                         fill
                                         sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"

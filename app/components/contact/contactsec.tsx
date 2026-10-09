@@ -1,5 +1,7 @@
 "use client";
 
+
+import { motion } from "framer-motion";
 import { useState } from "react";
 import type { FormEvent, ReactNode } from "react";
 import type { IconType } from "react-icons";
@@ -65,7 +67,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         {/* INFO CARDS */}
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
@@ -274,6 +276,6 @@ export default function ContactSection() {
           </aside>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <>
       <SubBanner pageKey="about" />
-       <AboutSection/>
+       <AboutSection hideButton />
        <ProcessSection/>
        <WhyChooseUsSection/>
        <CtaSection/>

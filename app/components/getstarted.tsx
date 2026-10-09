@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
@@ -9,7 +12,7 @@ export default function CtaSection() {
   if (!data) return null;
 
   return (
-    <section className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       {/* Image: full width on mobile (behind a white veil), right half on lg+ touching the screen edge */}
       <div className="absolute inset-0 lg:left-auto lg:w-[58%]">
         <Image
@@ -55,6 +58,6 @@ export default function CtaSection() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

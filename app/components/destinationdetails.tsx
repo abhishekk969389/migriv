@@ -1,4 +1,6 @@
 "use client";
+
+import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +10,7 @@ import type { MigrivoDestinationDetailsData } from "@/data/index";
 export function DestinationOverview({ data }: { data: MigrivoDestinationDetailsData }) {
   const { overview, enquiryForm } = data;
   return (
-    <section className="mt-8 sm:mt-10 md:mt-12 lg:mt-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid gap-10 lg:grid-cols-[1fr_360px] xl:grid-cols-[1fr_400px] lg:items-start">
           
@@ -124,7 +126,7 @@ export function DestinationOverview({ data }: { data: MigrivoDestinationDetailsD
 
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
@@ -142,7 +144,7 @@ export function DestinationAttractions({ data }: { data: MigrivoDestinationDetai
   };
 
   return (
-    <section className="mt-12 bg-[#f8fafc] py-10">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="mt-12 bg-[#f8fafc] py-10">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
           <div>
@@ -181,13 +183,13 @@ export function DestinationAttractions({ data }: { data: MigrivoDestinationDetai
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
 export function DestinationVisaOptions({ data }: { data: MigrivoDestinationDetailsData["visaOptions"] }) {
   return (
-    <section className="mt-12">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="mt-12">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div>
           <div className="inline-flex max-w-max items-center rounded-md border border-gray-200 bg-slate-50 px-3 py-1 text-[11px] font-bold tracking-wider text-slate-500 shadow-sm sm:text-xs">
@@ -224,13 +226,13 @@ export function DestinationVisaOptions({ data }: { data: MigrivoDestinationDetai
   })}
 </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
 export function DestinationRequirements({ data }: { data: MigrivoDestinationDetailsData["requirements"] }) {
   return (
-    <section className="mt-12 mb-8 sm:mb-10 md:mb-12 lg:mb-14">
+    <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }} className="mt-12 mb-8 sm:mb-10 md:mb-12 lg:mb-14">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="grid gap-10 lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_440px] lg:items-stretch">
           {/* Left Column: Requirements */}
@@ -306,6 +308,6 @@ export function DestinationRequirements({ data }: { data: MigrivoDestinationDeta
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

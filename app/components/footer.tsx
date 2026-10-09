@@ -1,5 +1,7 @@
 "use client";
 
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -47,7 +49,7 @@ export default function Footer() {
     pathname?.startsWith("/countries");
 
   return (
-    <footer
+    <motion.footer initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }} transition={{ duration: 0.5 }}
       className={`relative w-full overflow-hidden text-white ${
         hasNoMargin ? "" : "mt-8 sm:mt-10 md:mt-12 lg:mt-14"
       }`}
@@ -164,6 +166,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 }
