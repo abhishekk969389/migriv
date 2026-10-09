@@ -1,0 +1,4081 @@
+{
+  "MigrivoConsultancy": {
+    "templateComponents": [
+      "template-1"
+    ],
+    "sections": {
+      "Brand": {
+        "variants": {
+          "MigrivoBrand1": {
+            "name": "Migrivo",
+            "tagline": "Visa Consultants",
+            "logo": {
+              "src": "/logo.png",
+              "alt": "Migrivo Visa Consultants"
+            },
+            "siteTitle": "Migrivo | Visa Consultants",
+            "siteDescription": "Expert guidance for your study, work, visit or permanent residency journey."
+          }
+        }
+      },
+      "TopBar": {
+        "variants": {
+          "MigrivoTopBar1": {
+            "address": {
+              "label": "123 Business Street, New Delhi, India"
+            },
+            "email": {
+              "label": "info@migrivo.com",
+              "href": "mailto:info@migrivo.com"
+            },
+            "phone": {
+              "label": "+91 98765 43210",
+              "href": "tel:+919876543210"
+            },
+            "socials": [
+              {
+                "id": "1",
+                "label": "Facebook",
+                "href": "#",
+                "icon": "FaFacebookF"
+              },
+              {
+                "id": "2",
+                "label": "Instagram",
+                "href": "#",
+                "icon": "FaInstagram"
+              },
+              {
+                "id": "3",
+                "label": "LinkedIn",
+                "href": "#",
+                "icon": "FaLinkedinIn"
+              },
+              {
+                "id": "4",
+                "label": "YouTube",
+                "href": "#",
+                "icon": "FaYoutube"
+              }
+            ],
+            "languages": [
+              {
+                "id": "1",
+                "label": "English"
+              },
+              {
+                "id": "2",
+                "label": "हिन्दी"
+              },
+              {
+                "id": "3",
+                "label": "Español"
+              },
+              {
+                "id": "4",
+                "label": "Français"
+              },
+              {
+                "id": "5",
+                "label": "العربية"
+              }
+            ]
+          }
+        }
+      },
+      "Header": {
+        "variants": {
+          "MigrivoHeader1": {
+            "logo": {
+              "src": "/logo.png",
+              "alt": "Migrivo Visa Consultants"
+            },
+            "navItems": [
+              {
+                "id": "1",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "2",
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "id": "3",
+                "label": "Visa Services",
+                "href": "/service",
+                "children": [
+                  {
+                    "id": "3-1",
+                    "label": "Services",
+                    "href": "/service"
+                  },
+                  {
+                    "id": "3-2",
+                    "label": "Student Visa",
+                    "href": "/visa-services/student"
+                  },
+                  {
+                    "id": "3-3",
+                    "label": "Work Visa",
+                    "href": "/visa-services/work"
+                  },
+                  {
+                    "id": "3-4",
+                    "label": "Business Visa",
+                    "href": "/visa-services/business"
+                  }
+                ]
+              },
+              {
+                "id": "4",
+                "label": "Blogs",
+                "href": "/blog"
+              },
+              {
+                "id": "5",
+                "label": "Contact Us",
+                "href": "/contact"
+              }
+            ],
+            "phone": {
+              "label": "+91 98765 43210",
+              "number": "+919876543210",
+              "text": "Call Us Now"
+            },
+            "cta": {
+              "label": "Enquire Now",
+              "href": "/enquiry"
+            }
+          }
+        }
+      },
+      "Banner": {
+        "variants": {
+          "MigrivoBanner1": {
+            "bgImage": "/banner-bg.png",
+            "badge": "Your Global Journey Starts Here",
+            "titlePrefix": "Immigration &",
+            "titleHighlight": "Visa",
+            "titleSuffix": "Consultancy",
+            "description": "Expert guidance for your study, work, visit or permanent residency journey.",
+            "primaryBtn": {
+              "label": "Explore Services",
+              "href": "/visa-services"
+            },
+            "secondaryBtn": {
+              "label": "Contact Now",
+              "href": "/contact"
+            },
+            "features": [
+              {
+                "id": "1",
+                "labelLine1": "Study",
+                "labelLine2": "Abroad",
+                "icon": "FaGraduationCap"
+              },
+              {
+                "id": "2",
+                "labelLine1": "Work",
+                "labelLine2": "Visa",
+                "icon": "FaBriefcase"
+              },
+              {
+                "id": "3",
+                "labelLine1": "Visit",
+                "labelLine2": "Visa",
+                "icon": "FaPlaneDeparture"
+              },
+              {
+                "id": "4",
+                "labelLine1": "PR",
+                "labelLine2": "Services",
+                "icon": "FaRegFileAlt"
+              }
+            ]
+          }
+        }
+      },
+      "AboutSection": {
+        "variants": {
+          "MigrivoAbout1": {
+            "badge": "About the Company",
+            "titlePrefix": "Providing the best immigration",
+            "titleHighlight": "services",
+            "subtitle": "Your trusted partner for global opportunities.",
+            "description": "At Migrivo, we are dedicated to helping individuals and families turn their international dreams into reality. With expert guidance, personalized support, and a transparent process, we make your immigration journey simple, smooth and stress-free.",
+            "feature": {
+              "icon": "FaPassport",
+              "title": "Best Immigration Services",
+              "text": "We have a tendency to the idea that smart planning today creates a brighter tomorrow."
+            },
+            "cta": {
+              "label": "Discover More",
+              "href": "/about"
+            },
+            "images": {
+              "passports": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
+              "traveler": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80",
+              "canada": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=900&q=80"
+            },
+            "stats": {
+              "number": "3800+",
+              "label": "Satisfied Clients",
+              "icon": "FiUsers"
+            },
+            "badgeIcon": "FaPlane"
+          }
+        }
+      },
+      "Process": {
+        "variants": {
+          "MigrivoProcess1": {
+            "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+            "badge": "Our Process",
+            "titlePrefix": "Our Visa",
+            "titleHighlight": "Process",
+            "description": "We follow a simple and transparent process to make your immigration journey smooth, hassle-free and successful.",
+            "steps": [
+              {
+                "id": "1",
+                "title": "Initial Consultation",
+                "text": "We understand your goals and assess your eligibility to suggest the right visa options.",
+                "icon": "FaComments"
+              },
+              {
+                "id": "2",
+                "title": "Document Guidance",
+                "text": "We provide a detailed checklist and help you prepare and organize all required documents.",
+                "icon": "FaFileCircleCheck"
+              },
+              {
+                "id": "3",
+                "title": "Application Filing",
+                "text": "Our experts complete and file your application accurately, ensuring all requirements are met.",
+                "icon": "FaFilePen"
+              },
+              {
+                "id": "4",
+                "title": "Tracking & Updates",
+                "text": "We keep you informed at every stage and assist with any additional requirements.",
+                "icon": "FaHourglassHalf"
+              },
+              {
+                "id": "5",
+                "title": "Visa Approval",
+                "text": "Receive your visa and get ready to begin your global journey with confidence.",
+                "icon": "FaPassport"
+              }
+            ],
+            "cta": {
+              "label": "Get a Quote",
+              "href": "/contact"
+            }
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "MigrivoServices1": {
+            "badge": "Our Visa Services",
+            "titlePrefix": "Outstanding Immigration Visa",
+            "titleHighlight": "Services",
+            "description": "We offer a wide range of visa services to help you achieve your global dreams with expert guidance and complete support.",
+            "services": [
+              {
+                "id": "1",
+                "title": "Student Visa",
+                "text": "Study at top universities across the world.",
+                "href": "/visa-services/student",
+                "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaGraduationCap"
+              },
+              {
+                "id": "2",
+                "title": "Business Visa",
+                "text": "Expand your business opportunities globally.",
+                "href": "/visa-services/business",
+                "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaBriefcase"
+              },
+              {
+                "id": "3",
+                "title": "Family Visa",
+                "text": "Reunite with your loved ones abroad.",
+                "href": "/visa-services/family",
+                "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaUsers"
+              },
+              {
+                "id": "4",
+                "title": "Tourist Visa",
+                "text": "Explore new destinations with ease.",
+                "href": "/visa-services/tourist",
+                "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaCamera"
+              },
+              {
+                "id": "5",
+                "title": "Work Visa",
+                "text": "Build your international career with confidence.",
+                "href": "/visa-services/work",
+                "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaTools"
+              },
+              {
+                "id": "6",
+                "title": "Permanent Residency",
+                "text": "Settle in your dream country for a brighter future.",
+                "href": "/visa-services/permanent-residency",
+                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaHome"
+              },
+              {
+                "id": "7",
+                "title": "Investor Visa",
+                "text": "Invest in global opportunities with expert support.",
+                "href": "/visa-services/investor",
+                "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaChartLine"
+              },
+              {
+                "id": "8",
+                "title": "Dependent Visa",
+                "text": "Bring your family members with you abroad.",
+                "href": "/visa-services/dependent",
+                "image": "https://images.unsplash.com/photo-1476900543704-4312b78632f8?auto=format&fit=crop&w=700&q=80",
+                "icon": "FaUserFriends"
+              }
+            ]
+          }
+        }
+      },
+      "Destinations": {
+        "variants": {
+          "MigrivoDestinations1": {
+            "badge": "Popular Destinations",
+            "titlePrefix": "Explore Popular",
+            "titleHighlight": "Destinations",
+            "description": "Discover top study, work, and immigration destinations around the world with expert guidance for a brighter future.",
+            "destinations": [
+              {
+                "id": "1",
+                "name": "Canada",
+                "text": "Study, work and settle in a land of opportunities.",
+                "href": "/countries/canada",
+                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                "flag": "CA"
+              },
+              {
+                "id": "2",
+                "name": "USA",
+                "text": "Build your future in the world's leading economy.",
+                "href": "/countries/usa",
+                "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                "flag": "US"
+              },
+              {
+                "id": "3",
+                "name": "UK",
+                "text": "World-class education and global career growth.",
+                "href": "/countries/uk",
+                "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                "flag": "GB"
+              },
+              {
+                "id": "4",
+                "name": "Australia",
+                "text": "High-quality education and pristine lifestyle.",
+                "href": "/countries/australia",
+                "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                "flag": "AU"
+              },
+              {
+                "id": "5",
+                "name": "Germany",
+                "text": "Innovation, career opportunities and a strong future.",
+                "href": "/countries/germany",
+                "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                "flag": "DE"
+              },
+              {
+                "id": "6",
+                "name": "New Zealand",
+                "text": "Live, work and explore a better tomorrow.",
+                "href": "/countries/new-zealand",
+                "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                "flag": "NZ"
+              }
+            ],
+            "cta": {
+              "label": "View All Destinations",
+              "href": "/countries"
+            }
+          }
+        }
+      },
+      "Testimonial": {
+        "variants": {
+          "MigrivoTestimonial1": {
+            "sideImage": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1000&q=80",
+            "stats": {
+              "number": "3800+",
+              "label": "Happy Clients",
+              "icon": "FaUsers"
+            },
+            "badge": "Customer Feedback",
+            "titlePrefix": "What are people saying about our",
+            "titleHighlight": "service",
+            "description": "Real stories from students, professionals and families who achieved their global dreams with our support.",
+            "testimonials": [
+              {
+                "id": "1",
+                "name": "Rohit Sharma",
+                "visa": "Canada Student Visa",
+                "text": "The team made my Canada student visa process so simple. They guided me at every step, from documentation to final approval. Highly recommended!",
+                "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+              },
+              {
+                "id": "2",
+                "name": "Priya Mehta",
+                "visa": "Australia PR Visa",
+                "text": "Professional, transparent and very supportive throughout my Australia PR process. They answered all my queries and kept me updated regularly. Great experience!",
+                "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+              },
+              {
+                "id": "3",
+                "name": "Amit Verma",
+                "visa": "UK Work Visa",
+                "text": "I got my UK work visa faster than I expected. Every document was checked twice and the advice on interview preparation was spot on.",
+                "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+              },
+              {
+                "id": "4",
+                "name": "Neha Kapoor",
+                "visa": "Germany Job Seeker Visa",
+                "text": "From the first consultation to the visa stamp, the support was clear and honest. They never promised more than they could deliver.",
+                "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80"
+              },
+              {
+                "id": "5",
+                "name": "Karan Singh",
+                "visa": "USA Business Visa",
+                "text": "Our business trip visa had a tight deadline and the team handled everything smoothly. Quick replies and zero confusion.",
+                "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80"
+              },
+              {
+                "id": "6",
+                "name": "Anjali Nair",
+                "visa": "New Zealand Family Visa",
+                "text": "They helped our whole family move with confidence. The checklist and regular updates made a stressful process feel easy.",
+                "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+              }
+            ]
+          }
+        }
+      },
+      "CtaSection": {
+        "variants": {
+          "MigrivoCta1": {
+            "bgImage": "/cta-banner.png",
+            "badge": "Get Started Today",
+            "titlePrefix": "Ready to Begin Your",
+            "titleHighlight": "Global",
+            "titleSuffix": "Journey?",
+            "description": "Let our expert immigration consultants guide you with the right visa options and a smooth, hassle-free process.",
+            "cta": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        }
+      },
+      "Blog": {
+        "variants": {
+          "MigrivoBlog1": {
+            "badge": "Our Latest Blogs",
+            "titlePrefix": "Insights &",
+            "titleHighlight": "Updates",
+            "description": "Stay informed with the latest immigration news, visa updates and expert tips to plan your global journey.",
+            "posts": [
+              {
+                "id": "1",
+                "slug": "vaccination-requirements-immigrant-visa",
+                "day": "01",
+                "month": "Nov",
+                "title": "Requirements for Vaccination for Immigrant Visa Applicants",
+                "excerpt": "The application process for a tourist visa often involves submitting documentation such as a valid passport and proof of travel plans.",
+                "image": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "id": "2",
+                "slug": "travelling-america-tourism-business",
+                "day": "08",
+                "month": "Nov",
+                "title": "Travelling America for Tourism or Business Meeting",
+                "excerpt": "With the promise of swift processing, clients can have peace of mind knowing that their travel plans are in good hands.",
+                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "id": "3",
+                "slug": "cultural-encounters-cruise-booking",
+                "day": "10",
+                "month": "Dec",
+                "title": "Cultural Encounters And Connections Cruise Booking And Packages",
+                "excerpt": "Their services typically include eligibility assessments document preparation application submission and updates on the latest immigration policies many agencies.",
+                "image": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80"
+              }
+            ],
+            "cta": {
+              "label": "View All Blogs",
+              "href": "/blogs"
+            }
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "MigrivoFooter1": {
+            "bgImage": "/footer-bg.jpg",
+            "aboutText": "We provide trusted immigration and visa consultancy services to help you study, work, visit or settle abroad with confidence.",
+            "logo": {
+              "src": "/logo.png",
+              "alt": "Migrivo Visa Consultants"
+            },
+            "quickLinks": [
+              {
+                "id": "1",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "2",
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "id": "3",
+                "label": "Visa Services",
+                "href": "/visa-services"
+              },
+              {
+                "id": "4",
+                "label": "Destinations",
+                "href": "/destination"
+              },
+              {
+                "id": "5",
+                "label": "Gallery",
+                "href": "/gallery"
+              },
+              {
+                "id": "6",
+                "label": "Contact Us",
+                "href": "/contact"
+              }
+            ],
+            "visaServices": [
+              {
+                "id": "1",
+                "label": "Student Visa",
+                "href": "/visa-services/student"
+              },
+              {
+                "id": "2",
+                "label": "Work Visa",
+                "href": "/visa-services/work"
+              },
+              {
+                "id": "3",
+                "label": "Business Visa",
+                "href": "/visa-services/business"
+              },
+              {
+                "id": "4",
+                "label": "Family Visa",
+                "href": "/visa-services/family"
+              },
+              {
+                "id": "5",
+                "label": "Tourist Visa",
+                "href": "/visa-services/tourist"
+              },
+              {
+                "id": "6",
+                "label": "PR & Immigration",
+                "href": "/visa-services/permanent-residency"
+              },
+              {
+                "id": "7",
+                "label": "Visa Consultation",
+                "href": "/contact"
+              }
+            ],
+            "destinations": [
+              {
+                "id": "1",
+                "label": "Canada",
+                "href": "/countries/canada"
+              },
+              {
+                "id": "2",
+                "label": "Australia",
+                "href": "/countries/australia"
+              },
+              {
+                "id": "3",
+                "label": "USA",
+                "href": "/countries/usa"
+              },
+              {
+                "id": "4",
+                "label": "UK",
+                "href": "/countries/uk"
+              },
+              {
+                "id": "5",
+                "label": "New Zealand",
+                "href": "/countries/new-zealand"
+              },
+              {
+                "id": "6",
+                "label": "Germany",
+                "href": "/countries/germany"
+              },
+              {
+                "id": "7",
+                "label": "Europe",
+                "href": "/countries/europe"
+              },
+              {
+                "id": "8",
+                "label": "Dubai",
+                "href": "/countries/dubai"
+              }
+            ],
+            "socials": [
+              {
+                "id": "1",
+                "label": "Facebook",
+                "href": "#",
+                "icon": "FaFacebookF"
+              },
+              {
+                "id": "2",
+                "label": "Instagram",
+                "href": "#",
+                "icon": "FaInstagram"
+              },
+              {
+                "id": "3",
+                "label": "LinkedIn",
+                "href": "#",
+                "icon": "FaLinkedinIn"
+              },
+              {
+                "id": "4",
+                "label": "YouTube",
+                "href": "#",
+                "icon": "FaYoutube"
+              }
+            ],
+            "contacts": [
+              {
+                "id": "1",
+                "icon": "FaMapMarkerAlt",
+                "lines": [
+                  "123 Business Street,",
+                  "New Delhi, India 110001"
+                ]
+              },
+              {
+                "id": "2",
+                "icon": "FaPhoneAlt",
+                "lines": [
+                  "+91 98765 43210"
+                ],
+                "href": "tel:+919876543210"
+              },
+              {
+                "id": "3",
+                "icon": "FaEnvelope",
+                "lines": [
+                  "info@migrivo.in"
+                ],
+                "href": "mailto:info@migrivo.in"
+              },
+              {
+                "id": "4",
+                "icon": "FaClock",
+                "lines": [
+                  "Mon - Sat: 9:00 AM - 7:00 PM",
+                  "Sunday: Closed"
+                ]
+              }
+            ],
+            "copyright": "© 2026 Migrivo. All Rights Reserved.",
+            "bottomLinks": [
+              {
+                "id": "1",
+                "label": "ThankYou",
+                "href": "/thanku"
+              }
+            ]
+          }
+        }
+      },
+      "SubBanners": {
+        "variants": {
+          "MigrivoSubBanners1": {
+            "about": {
+              "title": "About Us",
+              "bgImage": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "About",
+                  "active": true
+                }
+              ]
+            },
+            "service": {
+              "title": "Services",
+              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Services",
+                  "active": true
+                }
+              ]
+            },
+            "destinations": {
+              "title": "Destinations",
+              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Destinations",
+                  "active": true
+                }
+              ]
+            },
+            "gallery": {
+              "title": "Gallery",
+              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Gallery",
+                  "active": true
+                }
+              ]
+            },
+            "blog": {
+              "title": "Blogs",
+              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Blogs",
+                  "active": true
+                }
+              ]
+            },
+            "enquiry": {
+              "title": "Enquire Now",
+              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Enquire Now",
+                  "active": true
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us",
+              "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Contact Us",
+                  "active": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      "AboutPage": {
+        "variants": {
+          "MigrivoAboutPage1": {
+            "whyChooseUs": {
+              "badge": "Why Choose Us",
+              "titlePrefix": "Trusted Expertise for Your",
+              "titleHighlight": "Global Journey",
+              "description": "We are committed to providing reliable, transparent and personalized visa consultancy services to help you achieve your international goals with confidence.",
+              "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1000&q=80",
+              "features": [
+                {
+                  "title": "Experienced Team",
+                  "text": "Guidance from certified visa experts with years of industry experience.",
+                  "icon": "FiUser"
+                },
+                {
+                  "title": "Personalized Support",
+                  "text": "Tailored solutions as per your profile and destination goals.",
+                  "icon": "FiFileText"
+                },
+                {
+                  "title": "Transparent Process",
+                  "text": "Clear communication and honest advice at every step.",
+                  "icon": "FiShield"
+                },
+                {
+                  "title": "Global Destinations",
+                  "text": "Expertise across multiple countries for study, work, business and family visas.",
+                  "icon": "FiGlobe"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "BlogList": {
+        "variants": {
+          "MigrivoBlogList1": {
+            "badge": "Our Blogs",
+            "titlePrefix": "Latest News &",
+            "titleHighlight": "Insights",
+            "description": "Stay informed with expert advice, travel tips, visa updates and destination guides to make your global journey easier.",
+            "posts": [
+              {
+                "slug": "top-tourist-attractions-france",
+                "day": "15",
+                "monthYear": "Aug 2026",
+                "category": "Travel Guide",
+                "title": "Top Tourist Attractions You Must Visit in France",
+                "excerpt": "Discover the most iconic places, local experiences and travel tips for an unforgettable trip to France.",
+                "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "slug": "step-by-step-tourist-visa",
+                "day": "12",
+                "monthYear": "Aug 2026",
+                "category": "Visa Tips",
+                "title": "Step-by-Step Guide to Apply for a Tourist Visa",
+                "excerpt": "Learn the complete process, required documents and expert tips to ensure a smooth visa application.",
+                "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "slug": "why-australia-top-choice",
+                "day": "09",
+                "monthYear": "Aug 2026",
+                "category": "Destinations",
+                "title": "Why Australia is a Top Choice for Travelers",
+                "excerpt": "Explore stunning landscapes, vibrant cities and unique experiences that make Australia special.",
+                "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "slug": "study-in-canada-benefits",
+                "day": "05",
+                "monthYear": "Aug 2026",
+                "category": "Study Abroad",
+                "title": "Study in Canada: Benefits, Requirements and Opportunities",
+                "excerpt": "Find out why Canada is a top destination for international students and how to get started.",
+                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "slug": "essential-travel-tips",
+                "day": "02",
+                "monthYear": "Aug 2026",
+                "category": "Travel Tips",
+                "title": "Essential Travel Tips for a Hassle-Free Journey",
+                "excerpt": "From packing tips to safety advice, here's everything you need to know before your next trip.",
+                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=900&q=80"
+              },
+              {
+                "slug": "latest-uk-visa-updates",
+                "day": "28",
+                "monthYear": "Jul 2026",
+                "category": "Visa Updates",
+                "title": "Latest UK Visa Updates You Should Know",
+                "excerpt": "Stay updated with the recent changes in UK visa rules, processing times and new requirements.",
+                "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=900&q=80"
+              }
+            ]
+          }
+        }
+      },
+      "ContactPage": {
+        "variants": {
+          "MigrivoContactPage1": {
+            "infoCards": [
+              {
+                "title": "Call Us",
+                "text": "Speak with our travel experts for instant assistance.",
+                "lines": [
+                  "+91 98765 43210"
+                ],
+                "href": "tel:+919876543210",
+                "icon": "FiPhone"
+              },
+              {
+                "title": "Email Us",
+                "text": "Drop us an email and we'll get back to you soon.",
+                "lines": [
+                  "info@migrivo.com"
+                ],
+                "href": "mailto:info@migrivo.com",
+                "icon": "FiMail"
+              },
+              {
+                "title": "Visit Our Office",
+                "text": "Come meet us at our office for personalized support.",
+                "lines": [
+                  "123 Travel Street, Connaught Place,",
+                  "New Delhi – 110001, India"
+                ],
+                "icon": "FiMapPin"
+              },
+              {
+                "title": "Working Hours",
+                "text": "We're available to assist you Monday to Saturday.",
+                "lines": [
+                  "9:00 AM – 7:00 PM"
+                ],
+                "note": "(Sunday Closed)",
+                "icon": "FiClock"
+              }
+            ],
+            "formHeading": {
+              "badge": "Send Us a Message",
+              "titlePrefix": "We'd Love to",
+              "titleHighlight": "Hear from You",
+              "description": "Fill out the form and our team will get back to you with the best travel options and personalized assistance."
+            },
+            "subjects": [
+              "Student Visa",
+              "Work Visa",
+              "Business Visa",
+              "Tourist Visa",
+              "Family Visa",
+              "Permanent Residency",
+              "General Enquiry"
+            ],
+            "officeCard": {
+              "badge": "Our Location",
+              "title": "Visit Our Office",
+              "description": "We'd love to meet you! Visit our office for personalized travel advice and detailed information.",
+              "address": [
+                "123 Travel Street, Connaught Place,",
+                "New Delhi – 110001, India"
+              ],
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85923192592!2d77.23701088488971!3d28.522404036526275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1786345160037!5m2!1sen!2sin"
+            }
+          }
+        }
+      },
+      "EnquiryPage": {
+        "variants": {
+          "MigrivoEnquiryPage1": {
+            "sideImage": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1000&q=80",
+            "countries": [
+              "India",
+              "Canada",
+              "United States",
+              "United Kingdom",
+              "Australia",
+              "Germany",
+              "New Zealand",
+              "United Arab Emirates",
+              "Other"
+            ],
+            "travelerOptions": [
+              "1 Traveler",
+              "2 Travelers",
+              "3 Travelers",
+              "4 Travelers",
+              "5+ Travelers"
+            ],
+            "enquiryTypes": [
+              "Student Visa",
+              "Work Visa",
+              "Business Visa",
+              "Tourist Visa",
+              "Family Visa",
+              "Permanent Residency",
+              "Other"
+            ],
+            "formHeading": {
+              "badge": "Send Us an Enquiry",
+              "titlePrefix": "We'd Love to",
+              "titleHighlight": "Hear from You",
+              "description": "Fill out the form below with your details. Our team will get back to you with the best options and personalized assistance."
+            },
+            "supportHeading": {
+              "badge": "Why Enquire With Us",
+              "titlePrefix": "Your Journey,",
+              "titleHighlight": "Our Support",
+              "description": "Get expert guidance, transparent information and the best options for your travel plans."
+            },
+            "supportItems": [
+              {
+                "title": "Expert Guidance",
+                "text": "Get advice from our experienced travel experts.",
+                "icon": "FiHeadphones"
+              },
+              {
+                "title": "Transparent Information",
+                "text": "Clear details and the best options for your needs.",
+                "icon": "FiTag"
+              },
+              {
+                "title": "Quick Response",
+                "text": "Our team will get back to you within 24 hours.",
+                "icon": "FiClock"
+              },
+              {
+                "title": "Personalized Assistance",
+                "text": "Tailored recommendations based on your requirements.",
+                "icon": "FiShield"
+              }
+            ]
+          }
+        }
+      },
+      "GalleryPage": {
+        "variants": {
+          "MigrivoGalleryPage1": {
+            "imageHeading": {
+              "badge": "Our Gallery",
+              "title": "Moments That Inspire",
+              "highlight": "New Journeys",
+              "description": "Take a look at our gallery to see client success stories, global destinations, events and memorable moments from our journey."
+            },
+            "images": [
+              {
+                "id": "1",
+                "photo": "1502602898657-3e91760cbb34",
+                "alt": "Eiffel Tower at sunset"
+              },
+              {
+                "id": "2",
+                "photo": "1436491865332-7a61a109cc05",
+                "alt": "Passport and boarding pass"
+              },
+              {
+                "id": "3",
+                "photo": "1521791136064-7986c2920216",
+                "alt": "Client consultation meeting"
+              },
+              {
+                "id": "4",
+                "photo": "1517935706615-2717063c2225",
+                "alt": "Toronto skyline with CN Tower"
+              },
+              {
+                "id": "5",
+                "photo": "1485738422979-f5c462d49f74",
+                "alt": "New York skyline"
+              },
+              {
+                "id": "6",
+                "photo": "1523482580672-f109ba8cb9be",
+                "alt": "Sydney Opera House"
+              },
+              {
+                "id": "7",
+                "photo": "1501785888041-af3ef285b470",
+                "alt": "Traveler at a mountain lake"
+              },
+              {
+                "id": "8",
+                "photo": "1450101499163-c8848c66ca85",
+                "alt": "Visa documents being signed"
+              },
+              {
+                "id": "9",
+                "photo": "1529655683826-aba9b3e77383",
+                "alt": "London with Big Ben"
+              },
+              {
+                "id": "10",
+                "photo": "1488646953014-85cb44e25828",
+                "alt": "Travelers at the airport"
+              },
+              {
+                "id": "11",
+                "photo": "1512453979798-5ea266f8880c",
+                "alt": "Dubai skyline"
+              },
+              {
+                "id": "12",
+                "photo": "1454165804606-c3d57bc86b40",
+                "alt": "Immigration paperwork on a desk"
+              }
+            ],
+            "videoHeading": {
+              "badge": "Video Gallery",
+              "title": "Watch Our Latest",
+              "highlight": "Videos",
+              "description": "Explore our video gallery to see client testimonials, destination insights, events and more."
+            },
+            "videos": [
+              {
+                "id": "1",
+                "title": "Your Journey Starts Here",
+                "subtitle": "Client Success Stories",
+                "duration": "02:18",
+                "photo": "1488646953014-85cb44e25828",
+                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+              },
+              {
+                "id": "2",
+                "title": "Visa Application Process",
+                "subtitle": "Step by Step Guide",
+                "duration": "03:45",
+                "photo": "1521791136064-7986c2920216",
+                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+              },
+              {
+                "id": "3",
+                "title": "Discover Canada",
+                "subtitle": "Top Places to Visit",
+                "duration": "01:52",
+                "photo": "1517935706615-2717063c2225",
+                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+              },
+              {
+                "id": "4",
+                "title": "Study in Australia",
+                "subtitle": "Opportunities & Lifestyle",
+                "duration": "02:30",
+                "photo": "1523482580672-f109ba8cb9be",
+                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+              }
+            ]
+          }
+        }
+      },
+      "ThankuPage": {
+        "variants": {
+          "MigrivoThankuPage1": {
+            "bgImage": "/thanku-banner.png",
+            "message": {
+              "titlePrefix": "Thank",
+              "titleHighlight": "You!",
+              "subtitle": "Your Enquiry Has Been Submitted",
+              "text": "We have received your enquiry and our travel experts will get back to you shortly with the best options and personalized assistance.",
+              "buttonLabel": "Back to Home",
+              "buttonHref": "/"
+            },
+            "features": [
+              {
+                "title": "Expert Support",
+                "text": "Our team will review your enquiry and get back to you soon.",
+                "icon": "FiHeadphones"
+              },
+              {
+                "title": "Quick Response",
+                "text": "You'll receive a response within 24 hours.",
+                "icon": "FiMail"
+              },
+              {
+                "title": "Best Options",
+                "text": "We'll share the most suitable options as per your needs.",
+                "icon": "FiTag"
+              },
+              {
+                "title": "Personalized Assistance",
+                "text": "Tailored travel plans to make your journey memorable.",
+                "icon": "FiShield"
+              }
+            ]
+          }
+        }
+      },
+      "ServiceDetails": {
+        "variants": {
+          "MigrivoServiceDetails1": {
+            "services": [
+              {
+                "slug": "tourist",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Tourist Visa?",
+                  "paragraphs": [
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiMapPin",
+                    "title": "Explore New Destinations",
+                    "text": "Travel with Confidence"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Tourist Visa Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced visa consultants."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your tourist visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Tourist Visa",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your travel plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Tourist Visa",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Hotel Reservation",
+                    "Recent Passport Size Photographs",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Cover Letter",
+                    "Travel Itinerary",
+                    "Travel Insurance (if required)",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Tourist Visa",
+                  "description": "We assist with tourist visa applications for a wide range of countries, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "student",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Student Visa?",
+                  "paragraphs": [
+                    "A student visa allows you to study in another country. Whether you are planning a short course or a full degree program, we provide complete assistance to make your academic journey smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right institution to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiBookOpen",
+                    "title": "World Class Education",
+                    "text": "Study Abroad"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Student Visa Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced education counselors."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your student visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Student Visa",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your study plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Student Visa",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Letter of Acceptance",
+                    "Academic Transcripts",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Statement of Purpose (SOP)",
+                    "English Proficiency Test Scores",
+                    "Medical Certificate",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Student Visa",
+                  "description": "We assist with student visa applications for top destinations, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "work",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Work Visa?",
+                  "paragraphs": [
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiMapPin",
+                    "title": "Explore New Destinations",
+                    "text": "Travel with Confidence"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Work Visa Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced visa consultants."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your tourist visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Work Visa",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your travel plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Work Visa",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Hotel Reservation",
+                    "Recent Passport Size Photographs",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Cover Letter",
+                    "Travel Itinerary",
+                    "Travel Insurance (if required)",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Work Visa",
+                  "description": "We assist with tourist visa applications for a wide range of countries, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "business",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Business Visa?",
+                  "paragraphs": [
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiMapPin",
+                    "title": "Explore New Destinations",
+                    "text": "Travel with Confidence"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Business Visa Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced visa consultants."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your tourist visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Business Visa",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your travel plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Business Visa",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Hotel Reservation",
+                    "Recent Passport Size Photographs",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Cover Letter",
+                    "Travel Itinerary",
+                    "Travel Insurance (if required)",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Business Visa",
+                  "description": "We assist with tourist visa applications for a wide range of countries, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "family",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Family Visa?",
+                  "paragraphs": [
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiMapPin",
+                    "title": "Explore New Destinations",
+                    "text": "Travel with Confidence"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Family Visa Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced visa consultants."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your tourist visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Family Visa",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your travel plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Family Visa",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Hotel Reservation",
+                    "Recent Passport Size Photographs",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Cover Letter",
+                    "Travel Itinerary",
+                    "Travel Insurance (if required)",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Family Visa",
+                  "description": "We assist with tourist visa applications for a wide range of countries, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "permanent-residency",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Permanent Residency?",
+                  "paragraphs": [
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiMapPin",
+                    "title": "Explore New Destinations",
+                    "text": "Travel with Confidence"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Permanent Residency Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced visa consultants."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your tourist visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Permanent Residency",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your travel plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Permanent Residency",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Hotel Reservation",
+                    "Recent Passport Size Photographs",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Cover Letter",
+                    "Travel Itinerary",
+                    "Travel Insurance (if required)",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Permanent Residency",
+                  "description": "We assist with tourist visa applications for a wide range of countries, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "investor",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Investor Visa?",
+                  "paragraphs": [
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiMapPin",
+                    "title": "Explore New Destinations",
+                    "text": "Travel with Confidence"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Investor Visa Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced visa consultants."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your tourist visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Investor Visa",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your travel plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Investor Visa",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Hotel Reservation",
+                    "Recent Passport Size Photographs",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Cover Letter",
+                    "Travel Itinerary",
+                    "Travel Insurance (if required)",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Investor Visa",
+                  "description": "We assist with tourist visa applications for a wide range of countries, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              },
+              {
+                "slug": "dependent",
+                "subBanner": {
+                  "title": "Services Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Service",
+                      "href": "/service"
+                    },
+                    {
+                      "label": "Service Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "OVERVIEW",
+                  "titlePrefix": "What is a ",
+                  "titleHighlight": "Dependent Visa?",
+                  "paragraphs": [
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=800&q=80",
+                  "floatingBadge": {
+                    "icon": "FiMapPin",
+                    "title": "Explore New Destinations",
+                    "text": "Travel with Confidence"
+                  }
+                },
+                "benefits": {
+                  "badge": "KEY BENEFITS",
+                  "titlePrefix": "Why Choose Our ",
+                  "titleHighlight": "Dependent Visa Services?",
+                  "items": [
+                    {
+                      "icon": "FiUsers",
+                      "title": "Expert Guidance",
+                      "text": "Get advice from experienced visa consultants."
+                    },
+                    {
+                      "icon": "FiFileText",
+                      "title": "Complete Documentation",
+                      "text": "Professional support for error-free application."
+                    },
+                    {
+                      "icon": "FiClock",
+                      "title": "Faster Processing",
+                      "text": "Timely submission and regular follow-ups."
+                    },
+                    {
+                      "icon": "FiShield",
+                      "title": "Higher Success Rate",
+                      "text": "Maximize your chances of visa approval."
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "title": "Enquire Now",
+                  "description": "Get expert assistance for your tourist visa application.",
+                  "buttonText": "Submit Enquiry"
+                },
+                "process": {
+                  "badge": "OUR PROCESS",
+                  "titlePrefix": "Simple Steps to Get Your ",
+                  "titleHighlight": "Dependent Visa",
+                  "steps": [
+                    {
+                      "number": "01",
+                      "icon": "FiFileText",
+                      "title": "Consultation",
+                      "text": "Discuss your travel plans and get expert advice."
+                    },
+                    {
+                      "number": "02",
+                      "icon": "FiFileText",
+                      "title": "Documentation",
+                      "text": "We help you prepare and verify all required documents."
+                    },
+                    {
+                      "number": "03",
+                      "icon": "FiSend",
+                      "title": "Application Submission",
+                      "text": "We submit your application to the embassy."
+                    },
+                    {
+                      "number": "04",
+                      "icon": "FiCheckCircle",
+                      "title": "Visa Approval",
+                      "text": "Receive your visa and get ready for your journey."
+                    }
+                  ]
+                },
+                "documents": {
+                  "badge": "REQUIRED DOCUMENTS",
+                  "titlePrefix": "Documents for ",
+                  "titleHighlight": "Dependent Visa",
+                  "description": "The document requirements may vary by country, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Hotel Reservation",
+                    "Recent Passport Size Photographs",
+                    "Bank Statement / Proof of Funds",
+                    "Completed Visa Application Form",
+                    "Cover Letter",
+                    "Travel Itinerary",
+                    "Travel Insurance (if required)",
+                    "Flight Booking Details",
+                    "Additional Documents (as per country)"
+                  ],
+                  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                },
+                "destinations": {
+                  "badge": "POPULAR DESTINATIONS",
+                  "titlePrefix": "Popular Countries for ",
+                  "titleHighlight": "Dependent Visa",
+                  "description": "We assist with tourist visa applications for a wide range of countries, including:",
+                  "items": [
+                    {
+                      "name": "Canada",
+                      "image": "1517935706615-2717063c2225"
+                    },
+                    {
+                      "name": "USA",
+                      "image": "1485738422979-f5c462d49f74"
+                    },
+                    {
+                      "name": "UK",
+                      "image": "1529655683826-aba9b3e77383"
+                    },
+                    {
+                      "name": "Australia",
+                      "image": "1523482580672-f109ba8cb9be"
+                    },
+                    {
+                      "name": "Germany",
+                      "image": "1560969184-10fe8719e047"
+                    },
+                    {
+                      "name": "New Zealand",
+                      "image": "1507699622108-4be3abd695ad"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "DestinationDetails": {
+        "variants": {
+          "MigrivoDestinationDetails1": {
+            "countries": [
+              {
+                "slug": "canada",
+                "subBanner": {
+                  "title": "Destinations Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Destinations",
+                      "href": "/destination"
+                    },
+                    {
+                      "label": "Destinations Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "ABOUT CANADA",
+                  "titlePrefix": "A Land of ",
+                  "titleHighlight": "Opportunities",
+                  "paragraphs": [
+                    "Canada is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, Canada offers endless opportunities for students, professionals, families, and tourists.",
+                    "Whether you're planning to study, work, visit, or settle, Canada welcomes global talent and offers a safe, inclusive, and prosperous environment."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=800&q=80",
+                  "features": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "World-Class Education",
+                      "text": "Top-ranked universities and colleges"
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Strong Economy",
+                      "text": "Excellent career opportunities"
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Multicultural Society",
+                      "text": "Diverse and welcoming communities"
+                    },
+                    {
+                      "icon": "FaShieldAlt",
+                      "title": "High Quality of Life",
+                      "text": "Safe, clean and well-developed cities"
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "titlePrefix": "Enquire ",
+                  "titleHighlight": "Now",
+                  "description": "Get expert guidance for your Canada visa application.",
+                  "fields": [
+                    {
+                      "name": "name",
+                      "type": "text",
+                      "placeholder": "Full Name *",
+                      "icon": "FiUser"
+                    },
+                    {
+                      "name": "email",
+                      "type": "email",
+                      "placeholder": "Email Address *",
+                      "icon": "FiMail"
+                    },
+                    {
+                      "name": "phone",
+                      "type": "tel",
+                      "placeholder": "Phone Number *",
+                      "icon": "FiPhone"
+                    },
+                    {
+                      "name": "visaType",
+                      "type": "select",
+                      "placeholder": "Select Visa Type *",
+                      "options": [
+                        "Student Visa",
+                        "Work Visa",
+                        "Visitor Visa",
+                        "PR & Immigration"
+                      ],
+                      "icon": "FiList"
+                    },
+                    {
+                      "name": "message",
+                      "type": "textarea",
+                      "placeholder": "Your Message *"
+                    }
+                  ],
+                  "buttonText": "Submit Enquiry"
+                },
+                "attractions": {
+                  "badge": "TOP ATTRACTIONS",
+                  "titlePrefix": "Explore the Beauty of ",
+                  "titleHighlight": "Canada",
+                  "description": "From breathtaking natural wonders to vibrant cities, Canada offers unforgettable experiences.",
+                  "items": [
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 1",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 2",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 3",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 4",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 5",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 6",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 7",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 8",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    }
+                  ]
+                },
+                "visaOptions": {
+                  "badge": "VISA TYPES",
+                  "titlePrefix": "Canada ",
+                  "titleHighlight": "Visa Options",
+                  "description": "We assist with various types of Canada visa applications, including:",
+                  "items": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "Student Visa",
+                      "text": "Study at top Canada universities and colleges."
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Work Visa",
+                      "text": "Explore career opportunities in Canada."
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Visitor Visa",
+                      "text": "Visit for tourism, family or business purposes."
+                    },
+                    {
+                      "icon": "FaHome",
+                      "title": "PR & Immigration",
+                      "text": "Settle in Canada for a brighter future."
+                    }
+                  ]
+                },
+                "requirements": {
+                  "badge": "VISA REQUIREMENTS",
+                  "titlePrefix": "Documents Required for ",
+                  "titleHighlight": "Canada Visa",
+                  "description": "The document requirements may vary by visa type, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Employment Documents (for Work Visa)",
+                    "Recent Passport Size Photographs",
+                    "Travel Itinerary (for Visitor Visa)",
+                    "Completed Visa Application Form",
+                    "Invitation Letter (if required)",
+                    "Proof of Funds",
+                    "Medical Examination Report (if required)",
+                    "Educational Documents (for Student Visa)",
+                    "Additional Documents (as per embassy)"
+                  ],
+                  "ctaCard": {
+                    "titlePrefix": "Start Your",
+                    "titleHighlight": "Canada Journey",
+                    "text": "Get expert consultation and make your visa process simple and hassle-free.",
+                    "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80",
+                    "buttonText": "Contact Us",
+                    "buttonHref": "/contact"
+                  }
+                }
+              },
+              {
+                "slug": "usa",
+                "subBanner": {
+                  "title": "Destinations Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Destinations",
+                      "href": "/destination"
+                    },
+                    {
+                      "label": "Destinations Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "ABOUT USA",
+                  "titlePrefix": "A Land of ",
+                  "titleHighlight": "Opportunities",
+                  "paragraphs": [
+                    "USA is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, USA offers endless opportunities for students, professionals, families, and tourists.",
+                    "Whether you're planning to study, work, visit, or settle, USA welcomes global talent and offers a safe, inclusive, and prosperous environment."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=800&q=80",
+                  "features": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "World-Class Education",
+                      "text": "Top-ranked universities and colleges"
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Strong Economy",
+                      "text": "Excellent career opportunities"
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Multicultural Society",
+                      "text": "Diverse and welcoming communities"
+                    },
+                    {
+                      "icon": "FaShieldAlt",
+                      "title": "High Quality of Life",
+                      "text": "Safe, clean and well-developed cities"
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "titlePrefix": "Enquire ",
+                  "titleHighlight": "Now",
+                  "description": "Get expert guidance for your USA visa application.",
+                  "fields": [
+                    {
+                      "name": "name",
+                      "type": "text",
+                      "placeholder": "Full Name *",
+                      "icon": "FiUser"
+                    },
+                    {
+                      "name": "email",
+                      "type": "email",
+                      "placeholder": "Email Address *",
+                      "icon": "FiMail"
+                    },
+                    {
+                      "name": "phone",
+                      "type": "tel",
+                      "placeholder": "Phone Number *",
+                      "icon": "FiPhone"
+                    },
+                    {
+                      "name": "visaType",
+                      "type": "select",
+                      "placeholder": "Select Visa Type *",
+                      "options": [
+                        "Student Visa",
+                        "Work Visa",
+                        "Visitor Visa",
+                        "PR & Immigration"
+                      ],
+                      "icon": "FiList"
+                    },
+                    {
+                      "name": "message",
+                      "type": "textarea",
+                      "placeholder": "Your Message *"
+                    }
+                  ],
+                  "buttonText": "Submit Enquiry"
+                },
+                "attractions": {
+                  "badge": "TOP ATTRACTIONS",
+                  "titlePrefix": "Explore the Beauty of ",
+                  "titleHighlight": "USA",
+                  "description": "From breathtaking natural wonders to vibrant cities, USA offers unforgettable experiences.",
+                  "items": [
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 1",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 2",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 3",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 4",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 5",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 6",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 7",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 8",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    }
+                  ]
+                },
+                "visaOptions": {
+                  "badge": "VISA TYPES",
+                  "titlePrefix": "USA ",
+                  "titleHighlight": "Visa Options",
+                  "description": "We assist with various types of USA visa applications, including:",
+                  "items": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "Student Visa",
+                      "text": "Study at top USA universities and colleges."
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Work Visa",
+                      "text": "Explore career opportunities in USA."
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Visitor Visa",
+                      "text": "Visit for tourism, family or business purposes."
+                    },
+                    {
+                      "icon": "FaHome",
+                      "title": "PR & Immigration",
+                      "text": "Settle in USA for a brighter future."
+                    }
+                  ]
+                },
+                "requirements": {
+                  "badge": "VISA REQUIREMENTS",
+                  "titlePrefix": "Documents Required for ",
+                  "titleHighlight": "USA Visa",
+                  "description": "The document requirements may vary by visa type, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Employment Documents (for Work Visa)",
+                    "Recent Passport Size Photographs",
+                    "Travel Itinerary (for Visitor Visa)",
+                    "Completed Visa Application Form",
+                    "Invitation Letter (if required)",
+                    "Proof of Funds",
+                    "Medical Examination Report (if required)",
+                    "Educational Documents (for Student Visa)",
+                    "Additional Documents (as per embassy)"
+                  ],
+                  "ctaCard": {
+                    "titlePrefix": "Start Your",
+                    "titleHighlight": "USA Journey",
+                    "text": "Get expert consultation and make your visa process simple and hassle-free.",
+                    "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80",
+                    "buttonText": "Contact Us",
+                    "buttonHref": "/contact"
+                  }
+                }
+              },
+              {
+                "slug": "uk",
+                "subBanner": {
+                  "title": "Destinations Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Destinations",
+                      "href": "/destination"
+                    },
+                    {
+                      "label": "Destinations Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "ABOUT UK",
+                  "titlePrefix": "A Land of ",
+                  "titleHighlight": "Opportunities",
+                  "paragraphs": [
+                    "UK is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, UK offers endless opportunities for students, professionals, families, and tourists.",
+                    "Whether you're planning to study, work, visit, or settle, UK welcomes global talent and offers a safe, inclusive, and prosperous environment."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=800&q=80",
+                  "features": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "World-Class Education",
+                      "text": "Top-ranked universities and colleges"
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Strong Economy",
+                      "text": "Excellent career opportunities"
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Multicultural Society",
+                      "text": "Diverse and welcoming communities"
+                    },
+                    {
+                      "icon": "FaShieldAlt",
+                      "title": "High Quality of Life",
+                      "text": "Safe, clean and well-developed cities"
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "titlePrefix": "Enquire ",
+                  "titleHighlight": "Now",
+                  "description": "Get expert guidance for your UK visa application.",
+                  "fields": [
+                    {
+                      "name": "name",
+                      "type": "text",
+                      "placeholder": "Full Name *",
+                      "icon": "FiUser"
+                    },
+                    {
+                      "name": "email",
+                      "type": "email",
+                      "placeholder": "Email Address *",
+                      "icon": "FiMail"
+                    },
+                    {
+                      "name": "phone",
+                      "type": "tel",
+                      "placeholder": "Phone Number *",
+                      "icon": "FiPhone"
+                    },
+                    {
+                      "name": "visaType",
+                      "type": "select",
+                      "placeholder": "Select Visa Type *",
+                      "options": [
+                        "Student Visa",
+                        "Work Visa",
+                        "Visitor Visa",
+                        "PR & Immigration"
+                      ],
+                      "icon": "FiList"
+                    },
+                    {
+                      "name": "message",
+                      "type": "textarea",
+                      "placeholder": "Your Message *"
+                    }
+                  ],
+                  "buttonText": "Submit Enquiry"
+                },
+                "attractions": {
+                  "badge": "TOP ATTRACTIONS",
+                  "titlePrefix": "Explore the Beauty of ",
+                  "titleHighlight": "UK",
+                  "description": "From breathtaking natural wonders to vibrant cities, UK offers unforgettable experiences.",
+                  "items": [
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 1",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 2",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 3",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 4",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 5",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 6",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 7",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 8",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    }
+                  ]
+                },
+                "visaOptions": {
+                  "badge": "VISA TYPES",
+                  "titlePrefix": "UK ",
+                  "titleHighlight": "Visa Options",
+                  "description": "We assist with various types of UK visa applications, including:",
+                  "items": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "Student Visa",
+                      "text": "Study at top UK universities and colleges."
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Work Visa",
+                      "text": "Explore career opportunities in UK."
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Visitor Visa",
+                      "text": "Visit for tourism, family or business purposes."
+                    },
+                    {
+                      "icon": "FaHome",
+                      "title": "PR & Immigration",
+                      "text": "Settle in UK for a brighter future."
+                    }
+                  ]
+                },
+                "requirements": {
+                  "badge": "VISA REQUIREMENTS",
+                  "titlePrefix": "Documents Required for ",
+                  "titleHighlight": "UK Visa",
+                  "description": "The document requirements may vary by visa type, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Employment Documents (for Work Visa)",
+                    "Recent Passport Size Photographs",
+                    "Travel Itinerary (for Visitor Visa)",
+                    "Completed Visa Application Form",
+                    "Invitation Letter (if required)",
+                    "Proof of Funds",
+                    "Medical Examination Report (if required)",
+                    "Educational Documents (for Student Visa)",
+                    "Additional Documents (as per embassy)"
+                  ],
+                  "ctaCard": {
+                    "titlePrefix": "Start Your",
+                    "titleHighlight": "UK Journey",
+                    "text": "Get expert consultation and make your visa process simple and hassle-free.",
+                    "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+                    "buttonText": "Contact Us",
+                    "buttonHref": "/contact"
+                  }
+                }
+              },
+              {
+                "slug": "australia",
+                "subBanner": {
+                  "title": "Destinations Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Destinations",
+                      "href": "/destination"
+                    },
+                    {
+                      "label": "Destinations Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "ABOUT AUSTRALIA",
+                  "titlePrefix": "A Land of ",
+                  "titleHighlight": "Opportunities",
+                  "paragraphs": [
+                    "Australia is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, Australia offers endless opportunities for students, professionals, families, and tourists.",
+                    "Whether you're planning to study, work, visit, or settle, Australia welcomes global talent and offers a safe, inclusive, and prosperous environment."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=800&q=80",
+                  "features": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "World-Class Education",
+                      "text": "Top-ranked universities and colleges"
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Strong Economy",
+                      "text": "Excellent career opportunities"
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Multicultural Society",
+                      "text": "Diverse and welcoming communities"
+                    },
+                    {
+                      "icon": "FaShieldAlt",
+                      "title": "High Quality of Life",
+                      "text": "Safe, clean and well-developed cities"
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "titlePrefix": "Enquire ",
+                  "titleHighlight": "Now",
+                  "description": "Get expert guidance for your Australia visa application.",
+                  "fields": [
+                    {
+                      "name": "name",
+                      "type": "text",
+                      "placeholder": "Full Name *",
+                      "icon": "FiUser"
+                    },
+                    {
+                      "name": "email",
+                      "type": "email",
+                      "placeholder": "Email Address *",
+                      "icon": "FiMail"
+                    },
+                    {
+                      "name": "phone",
+                      "type": "tel",
+                      "placeholder": "Phone Number *",
+                      "icon": "FiPhone"
+                    },
+                    {
+                      "name": "visaType",
+                      "type": "select",
+                      "placeholder": "Select Visa Type *",
+                      "options": [
+                        "Student Visa",
+                        "Work Visa",
+                        "Visitor Visa",
+                        "PR & Immigration"
+                      ],
+                      "icon": "FiList"
+                    },
+                    {
+                      "name": "message",
+                      "type": "textarea",
+                      "placeholder": "Your Message *"
+                    }
+                  ],
+                  "buttonText": "Submit Enquiry"
+                },
+                "attractions": {
+                  "badge": "TOP ATTRACTIONS",
+                  "titlePrefix": "Explore the Beauty of ",
+                  "titleHighlight": "Australia",
+                  "description": "From breathtaking natural wonders to vibrant cities, Australia offers unforgettable experiences.",
+                  "items": [
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 1",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 2",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 3",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 4",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 5",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 6",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 7",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 8",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    }
+                  ]
+                },
+                "visaOptions": {
+                  "badge": "VISA TYPES",
+                  "titlePrefix": "Australia ",
+                  "titleHighlight": "Visa Options",
+                  "description": "We assist with various types of Australia visa applications, including:",
+                  "items": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "Student Visa",
+                      "text": "Study at top Australia universities and colleges."
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Work Visa",
+                      "text": "Explore career opportunities in Australia."
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Visitor Visa",
+                      "text": "Visit for tourism, family or business purposes."
+                    },
+                    {
+                      "icon": "FaHome",
+                      "title": "PR & Immigration",
+                      "text": "Settle in Australia for a brighter future."
+                    }
+                  ]
+                },
+                "requirements": {
+                  "badge": "VISA REQUIREMENTS",
+                  "titlePrefix": "Documents Required for ",
+                  "titleHighlight": "Australia Visa",
+                  "description": "The document requirements may vary by visa type, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Employment Documents (for Work Visa)",
+                    "Recent Passport Size Photographs",
+                    "Travel Itinerary (for Visitor Visa)",
+                    "Completed Visa Application Form",
+                    "Invitation Letter (if required)",
+                    "Proof of Funds",
+                    "Medical Examination Report (if required)",
+                    "Educational Documents (for Student Visa)",
+                    "Additional Documents (as per embassy)"
+                  ],
+                  "ctaCard": {
+                    "titlePrefix": "Start Your",
+                    "titleHighlight": "Australia Journey",
+                    "text": "Get expert consultation and make your visa process simple and hassle-free.",
+                    "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=80",
+                    "buttonText": "Contact Us",
+                    "buttonHref": "/contact"
+                  }
+                }
+              },
+              {
+                "slug": "germany",
+                "subBanner": {
+                  "title": "Destinations Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Destinations",
+                      "href": "/destination"
+                    },
+                    {
+                      "label": "Destinations Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "ABOUT GERMANY",
+                  "titlePrefix": "A Land of ",
+                  "titleHighlight": "Opportunities",
+                  "paragraphs": [
+                    "Germany is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, Germany offers endless opportunities for students, professionals, families, and tourists.",
+                    "Whether you're planning to study, work, visit, or settle, Germany welcomes global talent and offers a safe, inclusive, and prosperous environment."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=800&q=80",
+                  "features": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "World-Class Education",
+                      "text": "Top-ranked universities and colleges"
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Strong Economy",
+                      "text": "Excellent career opportunities"
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Multicultural Society",
+                      "text": "Diverse and welcoming communities"
+                    },
+                    {
+                      "icon": "FaShieldAlt",
+                      "title": "High Quality of Life",
+                      "text": "Safe, clean and well-developed cities"
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "titlePrefix": "Enquire ",
+                  "titleHighlight": "Now",
+                  "description": "Get expert guidance for your Germany visa application.",
+                  "fields": [
+                    {
+                      "name": "name",
+                      "type": "text",
+                      "placeholder": "Full Name *",
+                      "icon": "FiUser"
+                    },
+                    {
+                      "name": "email",
+                      "type": "email",
+                      "placeholder": "Email Address *",
+                      "icon": "FiMail"
+                    },
+                    {
+                      "name": "phone",
+                      "type": "tel",
+                      "placeholder": "Phone Number *",
+                      "icon": "FiPhone"
+                    },
+                    {
+                      "name": "visaType",
+                      "type": "select",
+                      "placeholder": "Select Visa Type *",
+                      "options": [
+                        "Student Visa",
+                        "Work Visa",
+                        "Visitor Visa",
+                        "PR & Immigration"
+                      ],
+                      "icon": "FiList"
+                    },
+                    {
+                      "name": "message",
+                      "type": "textarea",
+                      "placeholder": "Your Message *"
+                    }
+                  ],
+                  "buttonText": "Submit Enquiry"
+                },
+                "attractions": {
+                  "badge": "TOP ATTRACTIONS",
+                  "titlePrefix": "Explore the Beauty of ",
+                  "titleHighlight": "Germany",
+                  "description": "From breathtaking natural wonders to vibrant cities, Germany offers unforgettable experiences.",
+                  "items": [
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 1",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 2",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 3",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 4",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 5",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 6",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 7",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 8",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    }
+                  ]
+                },
+                "visaOptions": {
+                  "badge": "VISA TYPES",
+                  "titlePrefix": "Germany ",
+                  "titleHighlight": "Visa Options",
+                  "description": "We assist with various types of Germany visa applications, including:",
+                  "items": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "Student Visa",
+                      "text": "Study at top Germany universities and colleges."
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Work Visa",
+                      "text": "Explore career opportunities in Germany."
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Visitor Visa",
+                      "text": "Visit for tourism, family or business purposes."
+                    },
+                    {
+                      "icon": "FaHome",
+                      "title": "PR & Immigration",
+                      "text": "Settle in Germany for a brighter future."
+                    }
+                  ]
+                },
+                "requirements": {
+                  "badge": "VISA REQUIREMENTS",
+                  "titlePrefix": "Documents Required for ",
+                  "titleHighlight": "Germany Visa",
+                  "description": "The document requirements may vary by visa type, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Employment Documents (for Work Visa)",
+                    "Recent Passport Size Photographs",
+                    "Travel Itinerary (for Visitor Visa)",
+                    "Completed Visa Application Form",
+                    "Invitation Letter (if required)",
+                    "Proof of Funds",
+                    "Medical Examination Report (if required)",
+                    "Educational Documents (for Student Visa)",
+                    "Additional Documents (as per embassy)"
+                  ],
+                  "ctaCard": {
+                    "titlePrefix": "Start Your",
+                    "titleHighlight": "Germany Journey",
+                    "text": "Get expert consultation and make your visa process simple and hassle-free.",
+                    "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80",
+                    "buttonText": "Contact Us",
+                    "buttonHref": "/contact"
+                  }
+                }
+              },
+              {
+                "slug": "new-zealand",
+                "subBanner": {
+                  "title": "Destinations Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Destinations",
+                      "href": "/destination"
+                    },
+                    {
+                      "label": "Destinations Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "overview": {
+                  "badge": "ABOUT NEW ZEALAND",
+                  "titlePrefix": "A Land of ",
+                  "titleHighlight": "Opportunities",
+                  "paragraphs": [
+                    "New Zealand is known for its high quality of life, world-class education, strong economy, and multicultural society. From stunning natural landscapes to vibrant cities, New Zealand offers endless opportunities for students, professionals, families, and tourists.",
+                    "Whether you're planning to study, work, visit, or settle, New Zealand welcomes global talent and offers a safe, inclusive, and prosperous environment."
+                  ],
+                  "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=800&q=80",
+                  "features": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "World-Class Education",
+                      "text": "Top-ranked universities and colleges"
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Strong Economy",
+                      "text": "Excellent career opportunities"
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Multicultural Society",
+                      "text": "Diverse and welcoming communities"
+                    },
+                    {
+                      "icon": "FaShieldAlt",
+                      "title": "High Quality of Life",
+                      "text": "Safe, clean and well-developed cities"
+                    }
+                  ]
+                },
+                "enquiryForm": {
+                  "titlePrefix": "Enquire ",
+                  "titleHighlight": "Now",
+                  "description": "Get expert guidance for your New Zealand visa application.",
+                  "fields": [
+                    {
+                      "name": "name",
+                      "type": "text",
+                      "placeholder": "Full Name *",
+                      "icon": "FiUser"
+                    },
+                    {
+                      "name": "email",
+                      "type": "email",
+                      "placeholder": "Email Address *",
+                      "icon": "FiMail"
+                    },
+                    {
+                      "name": "phone",
+                      "type": "tel",
+                      "placeholder": "Phone Number *",
+                      "icon": "FiPhone"
+                    },
+                    {
+                      "name": "visaType",
+                      "type": "select",
+                      "placeholder": "Select Visa Type *",
+                      "options": [
+                        "Student Visa",
+                        "Work Visa",
+                        "Visitor Visa",
+                        "PR & Immigration"
+                      ],
+                      "icon": "FiList"
+                    },
+                    {
+                      "name": "message",
+                      "type": "textarea",
+                      "placeholder": "Your Message *"
+                    }
+                  ],
+                  "buttonText": "Submit Enquiry"
+                },
+                "attractions": {
+                  "badge": "TOP ATTRACTIONS",
+                  "titlePrefix": "Explore the Beauty of ",
+                  "titleHighlight": "New Zealand",
+                  "description": "From breathtaking natural wonders to vibrant cities, New Zealand offers unforgettable experiences.",
+                  "items": [
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 1",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 2",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 3",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 4",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 5",
+                      "text": "World-famous natural wonder with stunning views."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 6",
+                      "text": "A modern city with iconic landmarks and vibrant culture."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 7",
+                      "text": "Breathtaking landscapes and outdoor adventures."
+                    },
+                    {
+                      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                      "title": "Top Destination 8",
+                      "text": "A beautiful coastal city surrounded by nature."
+                    }
+                  ]
+                },
+                "visaOptions": {
+                  "badge": "VISA TYPES",
+                  "titlePrefix": "New Zealand ",
+                  "titleHighlight": "Visa Options",
+                  "description": "We assist with various types of New Zealand visa applications, including:",
+                  "items": [
+                    {
+                      "icon": "FaGraduationCap",
+                      "title": "Student Visa",
+                      "text": "Study at top New Zealand universities and colleges."
+                    },
+                    {
+                      "icon": "FaBriefcase",
+                      "title": "Work Visa",
+                      "text": "Explore career opportunities in New Zealand."
+                    },
+                    {
+                      "icon": "FaUsers",
+                      "title": "Visitor Visa",
+                      "text": "Visit for tourism, family or business purposes."
+                    },
+                    {
+                      "icon": "FaHome",
+                      "title": "PR & Immigration",
+                      "text": "Settle in New Zealand for a brighter future."
+                    }
+                  ]
+                },
+                "requirements": {
+                  "badge": "VISA REQUIREMENTS",
+                  "titlePrefix": "Documents Required for ",
+                  "titleHighlight": "New Zealand Visa",
+                  "description": "The document requirements may vary by visa type, but generally include:",
+                  "items": [
+                    "Valid Passport",
+                    "Employment Documents (for Work Visa)",
+                    "Recent Passport Size Photographs",
+                    "Travel Itinerary (for Visitor Visa)",
+                    "Completed Visa Application Form",
+                    "Invitation Letter (if required)",
+                    "Proof of Funds",
+                    "Medical Examination Report (if required)",
+                    "Educational Documents (for Student Visa)",
+                    "Additional Documents (as per embassy)"
+                  ],
+                  "ctaCard": {
+                    "titlePrefix": "Start Your",
+                    "titleHighlight": "New Zealand Journey",
+                    "text": "Get expert consultation and make your visa process simple and hassle-free.",
+                    "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80",
+                    "buttonText": "Contact Us",
+                    "buttonHref": "/contact"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "BlogDetails": {
+        "variants": {
+          "MigrivoBlogDetails1": {
+            "blogs": [
+              {
+                "slug": "top-tourist-attractions-france",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "15 Aug 2026",
+                  "author": "By Admin",
+                  "readTime": "8 Min Read"
+                },
+                "badge": "TRAVEL GUIDE",
+                "titlePrefix": "Top Tourist Attractions You Must Visit in ",
+                "titleHighlight": "France",
+                "introduction": "France is one of the most visited countries in the world, known for its rich history, stunning architecture, world-class cuisine, and vibrant culture. From charming cities to breathtaking landscapes, France offers something for every traveler. Whether you're a history enthusiast, a foodie, or an adventure seeker, here are the top tourist attractions you must visit in France.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "Eiffel Tower - Paris",
+                    "description": "The Eiffel Tower is the most iconic landmark in France and a symbol of romance, culture, and architectural brilliance. Standing tall in the heart of Paris, it offers breathtaking views of the city, especially at sunset. You can take an elevator to the top or enjoy a leisurely walk around the nearby gardens, making it a must-visit spot for every traveler."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Louvre Museum - Paris",
+                    "description": "Home to thousands of works of art, including the famous Mona Lisa, the Louvre Museum is a paradise for art and history lovers. Its stunning architecture and vast collection make it one of the world's most renowned museums. Spend time exploring its fascinating galleries and uncover masterpieces from different eras."
+                  },
+                  {
+                    "number": "03",
+                    "title": "French Riviera - Nice",
+                    "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Mont Saint-Michel",
+                    "description": "This historic island commune is one of France's most unique attractions. With its medieval abbey, picturesque views, and rich history, Mont Saint-Michel is a UNESCO World Heritage Site and a must-see destination. The island's magical atmosphere and breathtaking surroundings make it a truly unforgettable experience."
+                  }
+                ],
+                "quote": "From iconic landmarks to hidden gems, France offers unforgettable experiences for every traveler. Plan your trip and explore the beauty, culture, and history of this incredible country."
+              },
+              {
+                "slug": "step-by-step-tourist-visa",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "12 Aug 2026",
+                  "author": "By Admin",
+                  "readTime": "5 Min Read"
+                },
+                "badge": "VISA TIPS",
+                "titlePrefix": "Step-by-Step Guide to Apply for a ",
+                "titleHighlight": "Tourist Visa",
+                "introduction": "Applying for a tourist visa can be a complex process, but breaking it down into simple steps makes it manageable. Here is a complete guide to help you apply for your next travel visa smoothly.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "Identify Visa Type",
+                    "description": "Ensure you are applying for the correct visa category (tourism, business, medical) before starting."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Gather Documents",
+                    "description": "Prepare your passport, photographs, bank statements, itinerary, and any other required paperwork."
+                  }
+                ],
+                "quote": "A well-prepared application is the first step toward a successful visa approval."
+              },
+              {
+                "slug": "why-australia-top-choice",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "09 Aug 2026",
+                  "author": "By Admin",
+                  "readTime": "7 Min Read"
+                },
+                "badge": "DESTINATIONS",
+                "titlePrefix": "Why Australia is a Top Choice for ",
+                "titleHighlight": "Travelers",
+                "introduction": "Australia is a vast and incredibly diverse country. With its breathtaking natural wonders, vibrant cities, and unique wildlife, it attracts millions of visitors every year.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "The Great Barrier Reef",
+                    "description": "Explore the world's largest coral reef system, perfect for snorkeling and diving."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Sydney Opera House",
+                    "description": "A marvel of modern architecture and the most recognizable landmark in Australia."
+                  }
+                ],
+                "quote": "There's nothing quite like the Australian outback and its coastal wonders."
+              },
+              {
+                "slug": "study-in-canada-benefits",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "05 Aug 2026",
+                  "author": "By Admin",
+                  "readTime": "6 Min Read"
+                },
+                "badge": "STUDY ABROAD",
+                "titlePrefix": "Study in Canada: Benefits, Requirements and ",
+                "titleHighlight": "Opportunities",
+                "introduction": "Canada is consistently ranked as one of the best countries in the world for international students. With world-class institutions and a welcoming culture, it's a great place to advance your education.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "Top-Tier Education",
+                    "description": "Canadian degrees are recognized worldwide for their exceptional academic standards."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Post-Graduation Work Options",
+                    "description": "Canada offers excellent pathways for students to work after they graduate and eventually apply for PR."
+                  }
+                ],
+                "quote": "Choosing to study in Canada is an investment in a brighter, global future."
+              },
+              {
+                "slug": "essential-travel-tips",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "02 Aug 2026",
+                  "author": "By Admin",
+                  "readTime": "4 Min Read"
+                },
+                "badge": "TRAVEL TIPS",
+                "titlePrefix": "Essential Travel Tips for a ",
+                "titleHighlight": "Hassle-Free Journey",
+                "introduction": "Traveling should be relaxing, not stressful. By following a few simple tips, you can ensure your trip goes smoothly from start to finish.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "Pack Light",
+                    "description": "Only bring what you truly need. Rolling your clothes saves space and prevents wrinkles."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Keep Digital Copies",
+                    "description": "Always have digital copies of your passport, visa, and itinerary stored securely in the cloud."
+                  }
+                ],
+                "quote": "A smart traveler is a happy traveler. Always plan ahead."
+              },
+              {
+                "slug": "latest-uk-visa-updates",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "28 Jul 2026",
+                  "author": "By Admin",
+                  "readTime": "9 Min Read"
+                },
+                "badge": "VISA UPDATES",
+                "titlePrefix": "Latest UK Visa Updates You Should ",
+                "titleHighlight": "Know",
+                "introduction": "The UK government frequently updates its visa policies. Staying informed on these changes is crucial for successful applications.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "Financial Requirements",
+                    "description": "Make sure you meet the updated minimum financial threshold required for your specific visa category."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Processing Times",
+                    "description": "Be aware of the latest expected processing times to avoid delays in your travel plans."
+                  }
+                ],
+                "quote": "Staying updated with immigration laws is the key to a successful journey to the UK."
+              },
+              {
+                "slug": "vaccination-requirements-immigrant-visa",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "01 Nov 2026",
+                  "author": "By Admin",
+                  "readTime": "7 Min Read"
+                },
+                "badge": "IMMIGRATION",
+                "titlePrefix": "Requirements for Vaccination for ",
+                "titleHighlight": "Immigrant Visa Applicants",
+                "introduction": "Medical examinations and vaccinations are a crucial part of the immigrant visa application process. To protect public health, most countries require prospective immigrants to be vaccinated against certain diseases before their visa can be approved.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "Required Vaccines",
+                    "description": "Depending on the country you are moving to, required vaccines may include COVID-19, Mumps, Measles, Rubella, Polio, Tetanus, and Hepatitis A and B."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Medical Examination",
+                    "description": "All applicants must have a medical examination by an authorized panel physician before their visa interview."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Vaccination Records",
+                    "description": "You must provide official vaccination records. If you are missing any required vaccines, the panel physician may administer them during your exam."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Exemptions",
+                    "description": "In some rare cases, waivers are available for applicants who object to vaccinations on religious or moral convictions, though these are difficult to obtain."
+                  }
+                ],
+                "quote": "Ensuring you have the proper vaccinations is not just about fulfilling a visa requirement; it's about safeguarding global public health."
+              },
+              {
+                "slug": "travelling-america-tourism-business",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "08 Nov 2026",
+                  "author": "By Admin",
+                  "readTime": "8 Min Read"
+                },
+                "badge": "TRAVEL TIPS",
+                "titlePrefix": "Travelling America for Tourism or ",
+                "titleHighlight": "Business Meeting",
+                "introduction": "The United States is a vast country with a booming economy and endless tourist attractions. Whether you're visiting for a critical business meeting in New York or a family vacation to the Grand Canyon, securing the right visa is your first step.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "B1 Business Visa",
+                    "description": "The B-1 visa is for individuals traveling to the U.S. for business purposes such as attending meetings, consulting with associates, or attending conferences."
+                  },
+                  {
+                    "number": "02",
+                    "title": "B2 Tourist Visa",
+                    "description": "The B-2 visa is for tourism, vacations, visiting family or friends, and medical treatments. Often, a B-1/B-2 combination visa is issued."
+                  },
+                  {
+                    "number": "03",
+                    "title": "ESTA for Visa Waiver Countries",
+                    "description": "Citizens of participating countries in the Visa Waiver Program can travel to the U.S. for up to 90 days without a visa by applying for an ESTA."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Preparing for the Interview",
+                    "description": "Be prepared to prove your strong ties to your home country to show you intend to return after your short visit to the United States."
+                  }
+                ],
+                "quote": "America offers boundless opportunities for both business professionals and adventure seekers. Start planning your journey today."
+              },
+              {
+                "slug": "cultural-encounters-cruise-booking",
+                "subBanner": {
+                  "title": "Blogs Detail",
+                  "bgImage": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1920&q=80",
+                  "breadcrumbs": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    },
+                    {
+                      "label": "Blogs Detail",
+                      "active": true
+                    }
+                  ]
+                },
+                "image": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=80",
+                "meta": {
+                  "date": "10 Dec 2026",
+                  "author": "By Admin",
+                  "readTime": "6 Min Read"
+                },
+                "badge": "TRAVEL GUIDE",
+                "titlePrefix": "Cultural Encounters And Connections ",
+                "titleHighlight": "Cruise Booking And Packages",
+                "introduction": "Cruising is no longer just about sitting by the pool; modern cruises offer deep cultural immersion, luxurious amenities, and the chance to wake up in a new country every day. Finding the right package can transform your vacation.",
+                "items": [
+                  {
+                    "number": "01",
+                    "title": "Choosing the Right Itinerary",
+                    "description": "Consider what cultures you want to explore. Mediterranean cruises offer rich history, while Caribbean cruises focus on vibrant island culture."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Shore Excursions",
+                    "description": "Book guided tours that focus on local encounters—like cooking classes in Italy or visiting indigenous communities in Alaska."
+                  },
+                  {
+                    "number": "03",
+                    "title": "All-Inclusive Packages",
+                    "description": "To avoid hidden costs, look for packages that include drinks, Wi-Fi, and gratuities so you can focus entirely on your experience."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Visa Requirements for Cruising",
+                    "description": "Remember that you may need multiple visas depending on the ports of call your cruise ship visits. Always check with a consultant beforehand."
+                  }
+                ],
+                "quote": "A great cruise doesn't just take you to beautiful places; it connects you with the heart and soul of diverse cultures."
+              }
+            ],
+            "config": {
+              "shareText": "Share This Article:",
+              "shareLinks": [
+                {
+                  "id": "facebook",
+                  "icon": "FaFacebookF",
+                  "href": "#",
+                  "bgColor": "#1877F2",
+                  "textColor": "#ffffff"
+                },
+                {
+                  "id": "twitter",
+                  "icon": "FaTwitter",
+                  "href": "#",
+                  "bgColor": "#1DA1F2",
+                  "textColor": "#ffffff"
+                },
+                {
+                  "id": "linkedin",
+                  "icon": "FaLinkedinIn",
+                  "href": "#",
+                  "bgColor": "#0A66C2",
+                  "textColor": "#ffffff"
+                },
+                {
+                  "id": "whatsapp",
+                  "icon": "FaWhatsapp",
+                  "href": "#",
+                  "bgColor": "#25D366",
+                  "textColor": "#ffffff"
+                },
+                {
+                  "id": "link",
+                  "icon": "FaLink",
+                  "href": "#",
+                  "bgColor": "#e5e7eb",
+                  "textColor": "#4b5563"
+                }
+              ],
+              "metaIcons": {
+                "date": "FiCalendar",
+                "author": "FiUser",
+                "readTime": "FiClock"
+              },
+              "quoteIcon": "FaQuoteLeft"
+            }
+          }
+        }
+      }
+    }
+  }
+}

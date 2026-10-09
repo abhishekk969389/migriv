@@ -1,21 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
-import { FaGraduationCap, FaBriefcase, FaPlaneDeparture, FaRegFileAlt } from "react-icons/fa";
-
-const features = [
-  { label: ["Study", "Abroad"], Icon: FaGraduationCap },
-  { label: ["Work", "Visa"], Icon: FaBriefcase },
-  { label: ["Visit", "Visa"], Icon: FaPlaneDeparture },
-  { label: ["PR", "Services"], Icon: FaRegFileAlt },
-];
+import { site } from "@/data/index";
+import type { MigrivoBannerData } from "@/data/index";
+import { getIcon } from "@/app/components/ui/icons";
 
 export default function HeroBanner() {
+  const data: MigrivoBannerData = site.banner;
+  if (!data) return null;
+
   return (
     <section className="relative w-full">
       {/* Background image */}
       <Image
-        src="/banner-bg.png"
+        src={data.bgImage}
         alt="Immigration and visa consultancy"
         fill
         priority
@@ -29,55 +27,58 @@ export default function HeroBanner() {
             <div className="flex items-center gap-4">
               <span className="h-[2px] w-10 bg-[#f26a0f]" />
               <p className="text-xs font-medium uppercase tracking-[0.22em] text-white sm:text-xs">
-                Your Global Journey Starts Here
+                {data.badge}
               </p>
             </div>
 
             <h1 className="mt-3 text-3xl font-bold text-white sm:text-4xl lg:text-6xl xl:text-[68px]">
-              Immigration &amp; <br className="hidden sm:block" />
-              <span className="text-[#f26a0f]">Visa</span> Consultancy
+              {data.titlePrefix} <br className="hidden sm:block" />
+              <span className="text-[#f26a0f]">{data.titleHighlight}</span> {data.titleSuffix}
             </h1>
 
             <p className="mt-2 max-w-[460px] text-xs text-slate-200 sm:text-sm md:text-base">
-              Expert guidance for your study, work, visit or permanent residency journey.
+              {data.description}
             </p>
 
             {/* Buttons */}
             <div className="mt-3 flex flex-wrap items-center gap-3 sm:gap-4">
               <Link
-                href="/visa-services"
+                href={data.primaryBtn.href}
                 className="inline-flex items-center gap-3 rounded-full bg-[#f26a0f] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#d95a05] sm:px-8 sm:text-base"
               >
-                Explore Services
+                {data.primaryBtn.label}
                 <FiArrowRight size={18} />
               </Link>
               <Link
-                href="/contact"
+                href={data.secondaryBtn.href}
                 className="inline-flex items-center rounded-full border border-white/80 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-[#0b1a3b] sm:px-8 sm:text-base"
               >
-                Contact Now
+                {data.secondaryBtn.label}
               </Link>
             </div>
 
             {/* Feature icons */}
             <ul className="mt-6 grid grid-cols-2 gap-x-4 gap-y-5 sm:flex sm:flex-wrap sm:items-center sm:gap-y-4">
-              {features.map(({ label, Icon }, i) => (
-                <li
-                  key={label.join(" ")}
-                  className={`flex items-center gap-3 ${
-                    i > 0 ? "sm:ml-5 sm:border-l sm:border-white/40 sm:pl-5" : ""
-                  }`}
-                >
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/80 text-orange-600 sm:h-11 sm:w-11">
-                    <Icon size={20} />
-                  </span>
-                  <span className="text-xs font-medium leading-tight text-white sm:text-sm">
-                    {label[0]}
-                    <br />
-                    {label[1]}
-                  </span>
-                </li>
-              ))}
+              {data.features.map((feature, i) => {
+                const Icon = getIcon(feature.icon);
+                return (
+                  <li
+                    key={feature.id}
+                    className={`flex items-center gap-3 ${
+                      i > 0 ? "sm:ml-5 sm:border-l sm:border-white/40 sm:pl-5" : ""
+                    }`}
+                  >
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/80 text-orange-600 sm:h-11 sm:w-11">
+                      <Icon size={20} />
+                    </span>
+                    <span className="text-xs font-medium leading-tight text-white sm:text-sm">
+                      {feature.labelLine1}
+                      <br />
+                      {feature.labelLine2}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

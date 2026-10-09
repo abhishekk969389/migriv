@@ -1,24 +1,18 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { HiOutlineGlobeAlt } from "react-icons/hi2";
 import { FiChevronDown } from "react-icons/fi";
-
-const languages = ["English", "हिन्दी", "Español", "Français", "العربية"];
-
-const socials = [
-  { label: "Facebook", href: "#", Icon: FaFacebookF },
-  { label: "Instagram", href: "#", Icon: FaInstagram },
-  { label: "LinkedIn", href: "#", Icon: FaLinkedinIn },
-  { label: "YouTube", href: "#", Icon: FaYoutube },
-];
+import { site } from "@/data/index";
+import type { MigrivoTopBarData } from "@/data/index";
+import { getIcon } from "@/app/components/ui/icons";
 
 export default function TopBar() {
+  const data: MigrivoTopBarData = site.topBar;
   const [open, setOpen] = useState(false);
-  const [lang, setLang] = useState(languages[0]);
+  const [lang, setLang] = useState(data.languages[0].label);
   const ref = useRef<HTMLDivElement>(null);
 
   // close dropdown on outside click
@@ -30,6 +24,8 @@ export default function TopBar() {
     return () => document.removeEventListener("mousedown", onClick);
   }, []);
 
+  if (!data) return null;
+
   return (
     <div className="w-full border-b border-gray-200 bg-gray-50 text-sm text-[#0f1f4b]">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
@@ -38,18 +34,18 @@ export default function TopBar() {
           <ul className="flex flex-wrap items-center justify-center gap-x-0 gap-y-2 lg:justify-start">
             <li className="flex items-center gap-2 pr-6">
               <FaLocationDot className="text-[#0b63e5]" size={16} />
-              <span>123 Business Street, New Delhi, India</span>
+              <span>{data.address.label}</span>
             </li>
             <li className="flex items-center gap-2 border-gray-300 px-6 lg:border-l">
               <MdEmail className="text-[#0b63e5]" size={20} />
-              <a href="mailto:info@migrivo.com" className="hover:text-[#0b63e5]">
-                info@migrivo.com
+              <a href={data.email.href} className="hover:text-[#0b63e5]">
+                {data.email.label}
               </a>
             </li>
             <li className="flex items-center gap-2 border-gray-300 pl-6 lg:border-l">
               <FaPhone className="text-[#0b63e5]" size={15} />
-              <a href="tel:+919876543210" className="hover:text-[#0b63e5]">
-                +91 98765 43210
+              <a href={data.phone.href} className="hover:text-[#0b63e5]">
+                {data.phone.label}
               </a>
             </li>
           </ul>
@@ -57,17 +53,20 @@ export default function TopBar() {
           {/* RIGHT: socials + language */}
           <div className="flex items-center">
             <ul className="flex items-center gap-5 pr-6">
-              {socials.map(({ label, href, Icon }) => (
-                <li key={label}>
-                  <a
-                    href={href}
-                    aria-label={label}
-                    className="block transition-colors hover:text-[#0b63e5]"
-                  >
-                    <Icon size={17} />
-                  </a>
-                </li>
-              ))}
+              {data.socials.map((social) => {
+                const Icon = getIcon(social.icon);
+                return (
+                  <li key={social.id}>
+                    <a
+                      href={social.href}
+                      aria-label={social.label}
+                      className="block transition-colors hover:text-[#0b63e5]"
+                    >
+                      <Icon size={17} />
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
 
             <div ref={ref} className="relative border-l border-gray-300 pl-6">
@@ -91,21 +90,21 @@ export default function TopBar() {
                   role="listbox"
                   className="absolute right-0 top-full z-50 mt-3 w-40 overflow-hidden rounded-md border border-gray-200 bg-white shadow-lg"
                 >
-                  {languages.map((l) => (
-                    <li key={l}>
+                  {data.languages.map((l) => (
+                    <li key={l.id}>
                       <button
                         type="button"
                         role="option"
-                        aria-selected={l === lang}
+                        aria-selected={l.label === lang}
                         onClick={() => {
-                          setLang(l);
+                          setLang(l.label);
                           setOpen(false);
                         }}
                         className={`w-full px-4 py-2 text-left hover:bg-gray-100 ${
-                          l === lang ? "font-semibold text-[#0b63e5]" : ""
+                          l.label === lang ? "font-semibold text-[#0b63e5]" : ""
                         }`}
                       >
-                        {l}
+                        {l.label}
                       </button>
                     </li>
                   ))}

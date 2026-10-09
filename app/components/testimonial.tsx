@@ -3,54 +3,13 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
-import { FaQuoteLeft, FaStar, FaUsers } from "react-icons/fa";
-
-const unsplash = (id: string, w = 200) =>
-  `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=80`;
-
-// Replace the image IDs with your own Unsplash photos
-const SIDE_IMAGE = unsplash("1488085061387-422e29b40080", 1000);
-
-const testimonials = [
-  {
-    name: "Rohit Sharma",
-    visa: "Canada Student Visa",
-    text: "The team made my Canada student visa process so simple. They guided me at every step, from documentation to final approval. Highly recommended!",
-    avatar: unsplash("1507003211169-0a1dd7228f2d"),
-  },
-  {
-    name: "Priya Mehta",
-    visa: "Australia PR Visa",
-    text: "Professional, transparent and very supportive throughout my Australia PR process. They answered all my queries and kept me updated regularly. Great experience!",
-    avatar: unsplash("1494790108377-be9c29b29330"),
-  },
-  {
-    name: "Amit Verma",
-    visa: "UK Work Visa",
-    text: "I got my UK work visa faster than I expected. Every document was checked twice and the advice on interview preparation was spot on.",
-    avatar: unsplash("1500648767791-00dcc994a43e"),
-  },
-  {
-    name: "Neha Kapoor",
-    visa: "Germany Job Seeker Visa",
-    text: "From the first consultation to the visa stamp, the support was clear and honest. They never promised more than they could deliver.",
-    avatar: unsplash("1438761681033-6461ffad8d80"),
-  },
-  {
-    name: "Karan Singh",
-    visa: "USA Business Visa",
-    text: "Our business trip visa had a tight deadline and the team handled everything smoothly. Quick replies and zero confusion.",
-    avatar: unsplash("1472099645785-5658abf4ff4e"),
-  },
-  {
-    name: "Anjali Nair",
-    visa: "New Zealand Family Visa",
-    text: "They helped our whole family move with confidence. The checklist and regular updates made a stressful process feel easy.",
-    avatar: unsplash("1544005313-94ddf0286df2"),
-  },
-];
+import { FaQuoteLeft, FaStar } from "react-icons/fa";
+import { site } from "@/data/index";
+import type { MigrivoTestimonialData } from "@/data/index";
+import { getIcon } from "@/app/components/ui/icons";
 
 export default function TestimonialsSection() {
+  const data: MigrivoTestimonialData = site.testimonial;
   const [perView, setPerView] = useState(2);
   const [index, setIndex] = useState(0);
 
@@ -64,9 +23,12 @@ export default function TestimonialsSection() {
     return () => window.removeEventListener("resize", update);
   }, []);
 
-  const pages: (typeof testimonials)[] = [];
-  for (let i = 0; i < testimonials.length; i += perView) {
-    pages.push(testimonials.slice(i, i + perView));
+  if (!data) return null;
+  const BadgeIcon = getIcon(data.stats.icon);
+
+  const pages: (typeof data.testimonials)[] = [];
+  for (let i = 0; i < data.testimonials.length; i += perView) {
+    pages.push(data.testimonials.slice(i, i + perView));
   }
   const total = pages.length;
   const current = Math.min(index, total - 1);
@@ -80,7 +42,7 @@ export default function TestimonialsSection() {
         {/* LEFT: image touching the left edge of the screen */}
         <div className="relative h-72 w-full sm:h-96 lg:h-auto lg:min-h-[560px] lg:w-[33%] lg:shrink-0 xl:w-[37%]">
           <Image
-            src={SIDE_IMAGE}
+            src={data.sideImage}
             alt="Happy client at the airport"
             fill
             priority
@@ -89,11 +51,11 @@ export default function TestimonialsSection() {
           />
           <div className="absolute bottom-6 left-4 flex items-center gap-4 bg-white p-3 pr-6 shadow-lg sm:bottom-8 sm:left-6 lg:bottom-10 lg:left-8">
             <span className="flex h-14 w-14 items-center justify-center bg-[#f26a0f] text-white sm:h-16 sm:w-16">
-              <FaUsers size={26} />
+              <BadgeIcon size={26} />
             </span>
             <div className="leading-tight">
-              <p className="text-2xl font-bold text-[#101D33] sm:text-3xl">3800+</p>
-              <p className="text-sm text-slate-500 sm:text-base">Happy Clients</p>
+              <p className="text-2xl font-bold text-[#101D33] sm:text-3xl">{data.stats.number}</p>
+              <p className="text-sm text-slate-500 sm:text-base">{data.stats.label}</p>
             </div>
           </div>
         </div>
@@ -103,17 +65,16 @@ export default function TestimonialsSection() {
           <div className="flex items-center gap-4">
             <span className="h-[2px] w-10 bg-[#f26a0f]" />
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-600">
-              Customer Feedback
+              {data.badge}
             </p>
           </div>
 
           <h2 className="mt-2 text-3xl font-bold text-[#101D33] sm:text-4xl md:text-5xl lg:text-[50px] xl:text-[58px]">
-            What are people saying about our <span className="text-[#f26a0f]">service</span>
+            {data.titlePrefix} <span className="text-[#f26a0f]">{data.titleHighlight}</span>
           </h2>
 
           <p className="mt-3 max-w-[640px] text-xs text-slate-500 sm:text-sm md:text-base lg:text-[16px]">
-            Real stories from students, professionals and families who achieved their global dreams
-            with our support.
+            {data.description}
           </p>
 
           {/* Slider */}

@@ -1,17 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
-
-// Put the image at public/cta-banner.png
-const CTA_IMAGE = "/cta-banner.png";
+import { site } from "@/data/index";
+import type { MigrivoCtaData } from "@/data/index";
 
 export default function CtaSection() {
+  const data: MigrivoCtaData = site.cta;
+  if (!data) return null;
+
   return (
     <section className="relative w-full mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       {/* Image: full width on mobile (behind a white veil), right half on lg+ touching the screen edge */}
       <div className="absolute inset-0 lg:left-auto lg:w-[58%]">
         <Image
-          src={CTA_IMAGE}
+          src={data.bgImage}
           alt="Traveler with passport at the airport"
           fill
           sizes="(min-width: 1024px) 58vw, 100vw"
@@ -29,26 +31,27 @@ export default function CtaSection() {
             <div className="flex items-center gap-4">
               <span className="h-[2px] w-10 bg-[#f26a0f]" />
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-600">
-                Get Started Today
+                {data.badge}
               </p>
             </div>
 
             <h2 className="mt-2 text-3xl font-bold text-[#101D33] sm:text-4xl md:text-5xl lg:text-[50px] xl:text-[58px]">
-              Ready to Begin Your <span className="text-[#f26a0f]">Global</span> Journey?
+              {data.titlePrefix} <span className="text-[#f26a0f]">{data.titleHighlight}</span>
             </h2>
 
             <p className="mt-3 max-w-[520px] text-xs text-slate-600 sm:text-sm md:text-base lg:text-[16px]">
-              Let our expert immigration consultants guide you with the right visa options and a
-              smooth, hassle-free process.
+              {data.description}
             </p>
 
-            <Link
-              href="/contact"
-              className="mt-7 inline-flex items-center gap-3 rounded-full bg-[#f26a0f] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-300/50 transition-colors hover:bg-[#d95a05] sm:px-10 sm:text-base"
-            >
-              Contact Us
-              <FiArrowRight size={18} />
-            </Link>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link
+                href={data.cta.href}
+                className="mt-7 inline-flex items-center gap-3 rounded-full bg-[#f26a0f] px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-300/50 transition-colors hover:bg-[#d95a05] sm:px-10 sm:text-base"
+              >
+                {data.cta.label}
+                <FiArrowRight size={18} />
+              </Link>
+            </div>
           </div>
         </div>
       </div>

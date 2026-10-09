@@ -5,31 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiChevronDown, FiArrowRight, FiMenu, FiX, FiPhone } from "react-icons/fi";
-
-type NavItem = {
-  label: string;
-  href: string;
-  children?: { label: string; href: string }[];
-};
-
-const navItems: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
-  {
-    label: "Visa Services",
-    href: "/visa-services",
-    children: [
-      { label: "Tourist Visa", href: "/visa-services/tourist" },
-      { label: "Student Visa", href: "/visa-services/student" },
-      { label: "Work Visa", href: "/visa-services/work" },
-      { label: "Business Visa", href: "/visa-services/business" },
-    ],
-  },
-  { label: "Blogs", href: "/blogs" },
-  { label: "Contact Us", href: "/contact" },
-];
+import { site } from "@/data/index";
+import type { MigrivoHeaderData } from "@/data/index";
 
 export default function Navbar() {
+  const data: MigrivoHeaderData = site.navbar;
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null); // desktop dropdown
@@ -62,6 +42,8 @@ export default function Navbar() {
     };
   }, [mobileOpen]);
 
+  if (!data) return null;
+
   return (
     <header className="sticky top-0 z-40 w-full bg-white shadow-sm">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
@@ -69,8 +51,8 @@ export default function Navbar() {
           {/* LEFT: logo */}
           <Link href="/" className="shrink-0" aria-label="Migrivo home">
             <Image
-              src="/logo.png"
-              alt="Migrivo Visa Consultants"
+              src={data.logo.src}
+              alt={data.logo.alt}
               width={260}
               height={80}
               priority
@@ -80,16 +62,18 @@ export default function Navbar() {
 
           {/* CENTER: nav links (lg and up) */}
           <nav ref={navRef} className="hidden lg:block">
-            <ul className="flex items-center gap-4 text-sm lg:text-[15px] xl:text-[16px] font-bold text-[#0f1f4b] lg:gap-8 xl:gap-8 xl:text-[15px]">
-              {navItems.map((item) => (
-                <li key={item.label} className="relative">
+            <ul className="flex items-center gap-4 text-sm lg:text-[15px] xl:text-[16px] font-semibold text-[#0f1f4b] lg:gap-8 xl:gap-8 xl:text-[15px]">
+              {data.navItems.map((item) => (
+                <li key={item.id} className="relative">
                   {item.children ? (
-                    <>
-                      <button
-                        type="button"
-                        onClick={() => setOpenMenu(openMenu === item.label ? null : item.label)}
-                        aria-expanded={openMenu === item.label}
-                        className={`flex items-center gap-1 whitespace-nowrap py-2 hover:text-[#0b63e5] xl:gap-1 ${
+                    <div 
+                      className="group"
+                      onMouseEnter={() => setOpenMenu(item.label)}
+                      onMouseLeave={() => setOpenMenu(null)}
+                    >
+                      <Link
+                        href={item.href || "#"}
+                        className={`flex items-center gap-1 whitespace-nowrap py-6 hover:text-[#0b63e5] xl:gap-1 ${
                           isActive(item.href) ? "text-[#0b63e5]" : ""
                         }`}
                       >
@@ -100,22 +84,24 @@ export default function Navbar() {
                             openMenu === item.label ? "rotate-180" : ""
                           }`}
                         />
-                      </button>
+                      </Link>
                       {openMenu === item.label && (
-                        <ul className="absolute left-0 top-full z-50 mt-2 w-52 overflow-hidden rounded-md border border-gray-100 bg-white py-1 shadow-lg">
-                          {item.children.map((c) => (
-                            <li key={c.href}>
-                              <Link
-                                href={c.href}
-                                className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0b63e5]"
-                              >
-                                {c.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
+                        <div className="absolute left-0 top-[100%] z-50 pt-2">
+                          <ul className="w-52 overflow-hidden rounded-md border border-gray-100 bg-white py-1 shadow-lg">
+                            {item.children.map((c) => (
+                              <li key={c.id}>
+                                <Link
+                                  href={c.href}
+                                  className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0b63e5]"
+                                >
+                                  {c.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
                       )}
-                    </>
+                    </div>
                   ) : (
                     <Link
                       href={item.href}
@@ -141,21 +127,21 @@ export default function Navbar() {
                 <FiPhone size={16} />
               </span>
               <div className="leading-tight">
-                <p className="text-xs text-gray-500">Call Us Now</p>
+                <p className="text-xs text-gray-500">{data.phone.text}</p>
                 <a
-                  href="tel:+919876543210"
+                  href={`tel:${data.phone.number}`}
                   className="whitespace-nowrap text-sm font-semibold text-[#0f1f4b] hover:text-[#0b63e5] xl:text-[15px]"
                 >
-                  +91 98765 43210
+                  {data.phone.label}
                 </a>
               </div>
             </div>
 
             <Link
-              href="/contact"
+              href={data.cta.href}
               className="hidden items-center gap-2 whitespace-nowrap rounded-full bg-[#f26a0f] px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#d95a05] sm:inline-flex xl:px-6 xl:py-3 xl:text-[15px]"
             >
-              Enquire Now
+              {data.cta.label}
               <FiArrowRight size={18} />
             </Link>
 
@@ -189,7 +175,7 @@ export default function Navbar() {
           }`}
         >
           <div className="flex items-center justify-between border-b border-gray-100 px-4 py-3">
-            <Image src="/logo.png" alt="Migrivo" width={160} height={50} className="h-10 w-auto" />
+            <Image src={data.logo.src} alt={data.logo.alt} width={160} height={50} className="h-10 w-auto" />
             <button
               type="button"
               onClick={() => setMobileOpen(false)}
@@ -201,8 +187,8 @@ export default function Navbar() {
           </div>
 
           <ul className="flex-1 overflow-y-auto px-4 py-2 text-[#0f1f4b]">
-            {navItems.map((item) => (
-              <li key={item.label} className="border-b border-gray-100">
+            {data.navItems.map((item) => (
+              <li key={item.id} className="border-b border-gray-100">
                 {item.children ? (
                   <>
                     <button
@@ -221,7 +207,7 @@ export default function Navbar() {
                     {mobileSub === item.label && (
                       <ul className="pb-2 pl-4">
                         {item.children.map((c) => (
-                          <li key={c.href}>
+                          <li key={c.id}>
                             <Link href={c.href} className="block py-2 text-sm hover:text-[#0b63e5]">
                               {c.label}
                             </Link>
@@ -250,17 +236,17 @@ export default function Navbar() {
                 <FiPhone size={18} />
               </span>
               <div className="leading-tight">
-                <p className="text-xs text-gray-500">Call Us Now</p>
-                <a href="tel:+919876543210" className="font-semibold text-[#0f1f4b]">
-                  +91 98765 43210
+                <p className="text-xs text-gray-500">{data.phone.text}</p>
+                <a href={`tel:${data.phone.number}`} className="font-semibold text-[#0f1f4b]">
+                  {data.phone.label}
                 </a>
               </div>
             </div>
             <Link
-              href="/contact"
+              href={data.cta.href}
               className="flex w-full items-center justify-center gap-2 rounded-full bg-[#f26a0f] px-6 py-3 font-semibold text-white hover:bg-[#d95a05]"
             >
-              Enquire Now
+              {data.cta.label}
               <FiArrowRight size={18} />
             </Link>
           </div>
