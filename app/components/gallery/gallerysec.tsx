@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import { FiChevronLeft, FiChevronRight, FiX, FiZoomIn } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
@@ -32,6 +33,12 @@ function Lightbox({
     onClose: () => void;
     onChange: (index: number) => void;
 }) {
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
     const total = active.kind === "image" ? images.length : videos.length;
     const prev = () => onChange((active.index - 1 + total) % total);
     const next = () => onChange((active.index + 1) % total);
@@ -55,13 +62,15 @@ function Lightbox({
         };
     }, []);
 
+    if (!mounted) return null;
+
     const image = active.kind === "image" ? images[active.index] : null;
     const video = active.kind === "video" ? videos[active.index] : null;
 
     const circleBtn =
         "flex h-10 w-10 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur-sm transition-colors hover:bg-white/30 sm:h-12 sm:w-12";
 
-    return (
+    return createPortal(
         <div
             role="dialog"
             aria-modal="true"
@@ -137,7 +146,8 @@ function Lightbox({
             >
                 <FiChevronRight size={24} />
             </button>
-        </div>
+        </div>,
+        document.body
     );
 }
 
