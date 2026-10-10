@@ -43,17 +43,6 @@ export function Overview({ data }: { data: MigrivoServiceDetailsData["overview"]
                 className="object-cover"
               />
             </div>
-
-            {/* Floating Badge: inside the image so it doesn't stick out below the text's bottom line */}
-            <div className="absolute bottom-3 right-3 flex items-center gap-4 rounded-xl bg-white p-4 shadow-2xl ring-1 ring-black/5 sm:bottom-5 sm:right-5 sm:p-5">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#f1f6fd] text-[#f26a0f]">
-                <BadgeIcon size={24} />
-              </span>
-              <div>
-                <p className="text-sm font-bold text-[#101D33] sm:text-base">{data.floatingBadge.title}</p>
-                <p className="text-xs text-slate-500">{data.floatingBadge.text}</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

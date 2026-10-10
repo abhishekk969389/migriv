@@ -61,8 +61,7 @@ export default function WhyChooseUsSection() {
 
           {/* RIGHT: circular image collage (all positions in % so it scales) */}
           <div className="relative mx-auto aspect-square w-full max-w-[300px] sm:max-w-[440px] lg:max-w-[520px]">
-            {/* blue circle behind */}
-            <span className="absolute left-0 top-0 aspect-square w-[29%] rounded-full bg-[#0b4fc4]" />
+       
 
             {/* circle image */}
             <div className="absolute bottom-0 left-[9%] aspect-square w-[85%] overflow-hidden rounded-full">

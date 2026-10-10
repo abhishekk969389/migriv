@@ -61,7 +61,7 @@ export default function HeroBanner() {
   if (!data) return null;
 
   return (
-    <section className="relative w-full">
+    <section className="relative isolate w-full overflow-hidden bg-[#0a0a0a]">
       {/* Background image */}
       <Image
         src={data.bgImage}
@@ -69,10 +69,12 @@ export default function HeroBanner() {
         fill
         priority
         sizes="100vw"
-        className="object-cover object-[70%_center] lg:object-center"
+        className="-z-20 object-cover object-[70%_center] lg:object-center"
       />
-      <div className="relative mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
-        <div className="flex min-h-[420px] items-center sm:min-h-[480px] lg:min-h-[500px]">
+      <div className="absolute inset-0 -z-10 bg-black/60 lg:hidden" />
+      
+      <div className="relative z-10 mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
+        <div className="flex min-h-[500px] items-center sm:min-h-[480px] lg:min-h-[500px]">
           {/* LEFT content */}
           <motion.div
             variants={container}

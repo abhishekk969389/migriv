@@ -79,33 +79,6 @@ export function BlogContent({ data }: { data: MigrivoBlogDetailsData }) {
           {data.quote}
         </p>
       </div>
-
-      {/* Share Article */}
-      <div className="mt-8 flex flex-col items-center gap-4 border-t border-gray-200 pt-8 sm:flex-row sm:justify-start">
-        <span className="font-bold text-[#101D33]">Share This Article:</span>
-        <div className="flex items-center gap-3">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1877F2] text-white transition-transform hover:scale-110">
-            <FaFacebookF size={18} />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1DA1F2] text-white transition-transform hover:scale-110">
-            <FaXTwitter size={18} />
-          </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#0A66C2] text-white transition-transform hover:scale-110">
-            <FaLinkedinIn size={18} />
-          </a>
-          <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#25D366] text-white transition-transform hover:scale-110">
-            <FaWhatsapp size={20} />
-          </a>
-          <button onClick={() => {
-            if (typeof window !== 'undefined') {
-              navigator.clipboard.writeText(window.location.href);
-              alert('Link copied!');
-            }
-          }} className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-200 text-gray-600 transition-transform hover:scale-110">
-            <FaLink size={16} />
-          </button>
-        </div>
-      </div>
     </article>
   );
 }

@@ -42,7 +42,7 @@ export default function Footer() {
   const pathname = usePathname();
   if (!data) return null;
 
-  const noTopMarginPages = ["/about", "/service", "/destination"];
+  const noTopMarginPages = ["/about", "/service", "/destination", "/thanku"];
   const hasNoMargin =
     noTopMarginPages.includes(pathname || "") ||
     pathname?.startsWith("/visa-services") ||
@@ -66,9 +66,9 @@ export default function Footer() {
 
       <div className="relative mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         {/* Main columns */}
-        <div className="grid gap-10 pb-8 pt-12 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.3fr] lg:gap-6 lg:pb-10 lg:pt-14 xl:gap-8">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-10 pb-8 pt-12 sm:grid-cols-2 sm:gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.3fr] lg:gap-6 lg:pb-10 lg:pt-14 xl:gap-8">
           {/* Brand */}
-          <div className="sm:col-span-2 lg:col-span-1">
+          <div className="col-span-2 lg:col-span-1">
             <Link href="/" aria-label="Migrivo home" className="inline-block">
               <Image
                 src={data.logo.src}
@@ -112,13 +112,13 @@ export default function Footer() {
           </div>
 
           {/* Destinations */}
-          <div>
+          <div className="col-span-2 sm:col-span-1 lg:col-span-1">
             <ColumnTitle>Popular Destinations</ColumnTitle>
             <LinkList items={data.destinations} />
           </div>
 
           {/* Contact */}
-          <div className="sm:col-span-2 lg:col-span-1 lg:border-l lg:border-white/15 lg:pl-6 xl:pl-8">
+          <div className="col-span-2 lg:col-span-1 lg:border-l lg:border-white/15 lg:pl-6 xl:pl-8">
             <ColumnTitle>Contact Information</ColumnTitle>
             <ul className="mt-5 space-y-4">
               {data.contacts.map((contact) => {

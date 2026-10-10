@@ -68,23 +68,7 @@ export default function ThankYouSection() {
           </Link>
         </div>
 
-        {/* Feature strip */}
-        <div className="grid grid-cols-2 gap-y-6 rounded-xl bg-white/95 p-4 shadow-[0_8px_30px_rgba(15,31,75,0.12)] ring-1 ring-gray-100 backdrop-blur-sm sm:p-5 lg:grid-cols-4 lg:gap-y-0 lg:divide-x lg:divide-gray-200 lg:py-6">
-          {data.features.map(({ title, text, icon }) => {
-            const Icon = getIcon(icon);
-            return (
-              <div key={title} className="flex flex-col items-center px-3 text-center sm:px-5">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-orange-50 text-[#f26a0f] ring-1 ring-orange-100 sm:h-14 sm:w-14">
-                  <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
-                </span>
-                <h3 className="mt-3 text-sm font-bold text-[#101D33] sm:text-base">{title}</h3>
-                <p className="mt-1 max-w-[220px] text-xs leading-snug text-slate-500 sm:text-[13px]">
-                  {text}
-                </p>
-              </div>
-            );
-          })}
-        </div>
+       
       </div>
     </motion.section>
   );

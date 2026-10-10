@@ -27,7 +27,7 @@ export default function TopBar() {
   if (!data) return null;
 
   return (
-    <div className="w-full border-b border-gray-200 bg-gray-50 text-sm text-[#0f1f4b]">
+    <div className="hidden sm:block w-full border-b border-gray-200 bg-gray-50 text-sm text-[#0f1f4b]">
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6">
         <div className="flex flex-col items-center justify-between gap-2 py-2.5 lg:flex-row">
           {/* LEFT: contact info */}
@@ -52,7 +52,7 @@ export default function TopBar() {
 
           {/* RIGHT: socials + language */}
           <div className="flex items-center">
-            <ul className="flex items-center gap-5 pr-6">
+            <ul className="flex items-center gap-5 pr-3">
               {data.socials.map((social) => {
                 const Icon = getIcon(social.icon);
                 return (
@@ -69,48 +69,6 @@ export default function TopBar() {
               })}
             </ul>
 
-            <div ref={ref} className="relative border-l border-gray-300 pl-6">
-              <button
-                type="button"
-                onClick={() => setOpen((v) => !v)}
-                aria-haspopup="listbox"
-                aria-expanded={open}
-                className="flex items-center gap-2 hover:text-[#0b63e5]"
-              >
-                <HiOutlineGlobeAlt className="text-[#0b63e5]" size={20} />
-                <span>{lang}</span>
-                <FiChevronDown
-                  size={16}
-                  className={`transition-transform ${open ? "rotate-180" : ""}`}
-                />
-              </button>
-
-              {open && (
-                <ul
-                  role="listbox"
-                  className="absolute right-0 top-full z-50 mt-3 w-40 overflow-hidden rounded-md border border-gray-200 bg-white shadow-lg"
-                >
-                  {data.languages.map((l) => (
-                    <li key={l.id}>
-                      <button
-                        type="button"
-                        role="option"
-                        aria-selected={l.label === lang}
-                        onClick={() => {
-                          setLang(l.label);
-                          setOpen(false);
-                        }}
-                        className={`w-full px-4 py-2 text-left hover:bg-gray-100 ${
-                          l.label === lang ? "font-semibold text-[#0b63e5]" : ""
-                        }`}
-                      >
-                        {l.label}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
           </div>
         </div>
       </div>

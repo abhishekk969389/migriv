@@ -80,17 +80,6 @@ export default function ProcessSection() {
             );
           })}
         </ul>
-
-        {/* CTA */}
-        <div className="mt-6 text-center">
-          <Link
-            href={data.cta.href}
-            className="inline-flex items-center gap-3 rounded-full bg-[#f26a0f] px-14 py-3 text-sm font-semibold text-white shadow-lg transition-colors hover:bg-[#d95a05] sm:text-sm md:text-base"
-          >
-            {data.cta.label}
-            <FiArrowRight size={18} />
-          </Link>
-        </div>
       </div>
     </motion.section>
   );

@@ -25,11 +25,6 @@ function Meta({ author }: { author: string }) {
         <FiUser className="text-[#f26a0f]" size={14} />
         By {author}
       </span>
-      <span className="text-slate-400">/</span>
-      <span className="flex items-center gap-1.5">
-        <FiMessageSquare className="text-[#f26a0f]" size={14} />
-        No Comments
-      </span>
     </div>
   );
 }
