@@ -5,19 +5,20 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiCalendar, FiUser, FiClock } from "react-icons/fi";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaWhatsapp, FaLink, FaQuoteLeft } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaWhatsapp, FaLink, FaQuoteLeft } from "react-icons/fa";
 import type { MigrivoBlogDetailsData } from "@/data/index";
+import { FaXTwitter } from "react-icons/fa6";
 
 export function BlogContent({ data }: { data: MigrivoBlogDetailsData }) {
   return (
     <article className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-10 xl:px-6 mt-8 sm:mt-10 md:mt-12 lg:mt-14">
       {/* Hero Image */}
       <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl shadow-md">
-        <Image 
-          src={data.image} 
-          alt={data.titleHighlight} 
-          fill 
-          className="object-cover" 
+        <Image
+          src={data.image}
+          alt={data.titleHighlight}
+          fill
+          className="object-cover"
           priority
         />
       </div>
@@ -83,19 +84,24 @@ export function BlogContent({ data }: { data: MigrivoBlogDetailsData }) {
       <div className="mt-8 flex flex-col items-center gap-4 border-t border-gray-200 pt-8 sm:flex-row sm:justify-start">
         <span className="font-bold text-[#101D33]">Share This Article:</span>
         <div className="flex items-center gap-3">
-          <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1877F2] text-white transition-transform hover:scale-110">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1877F2] text-white transition-transform hover:scale-110">
             <FaFacebookF size={18} />
           </a>
-          <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1DA1F2] text-white transition-transform hover:scale-110">
-            <FaTwitter size={18} />
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1DA1F2] text-white transition-transform hover:scale-110">
+            <FaXTwitter size={18} />
           </a>
-          <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#0A66C2] text-white transition-transform hover:scale-110">
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#0A66C2] text-white transition-transform hover:scale-110">
             <FaLinkedinIn size={18} />
           </a>
-          <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#25D366] text-white transition-transform hover:scale-110">
+          <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#25D366] text-white transition-transform hover:scale-110">
             <FaWhatsapp size={20} />
           </a>
-          <button className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-200 text-gray-600 transition-transform hover:scale-110">
+          <button onClick={() => {
+            if (typeof window !== 'undefined') {
+              navigator.clipboard.writeText(window.location.href);
+              alert('Link copied!');
+            }
+          }} className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-200 text-gray-600 transition-transform hover:scale-110">
             <FaLink size={16} />
           </button>
         </div>

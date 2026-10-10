@@ -225,7 +225,7 @@
             },
             "images": {
               "passports": "/about/a2.jpg",
-              "traveler": "/about/a3.jpg",
+              "traveler": "/services/s3.jpg",
               "canada": "/about/a1.jpg"
             },
             "stats": {
@@ -1145,7 +1145,7 @@
                 "subtitle": "Client Success Stories",
                 "duration": "02:18",
                 "photo": "/about/a3.jpg",
-                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+                "embed": "https://www.youtube.com/embed/LXb3EKWsInQ"
               },
               {
                 "id": "2",
@@ -1153,7 +1153,7 @@
                 "subtitle": "Step by Step Guide",
                 "duration": "03:45",
                 "photo": "/services/s4.jpg",
-                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+                "embed": "https://www.youtube.com/embed/LXb3EKWsInQ"
               },
               {
                 "id": "3",
@@ -1161,7 +1161,7 @@
                 "subtitle": "Top Places to Visit",
                 "duration": "01:52",
                 "photo": "/destination/canada.jpg",
-                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+                "embed": "https://www.youtube.com/embed/LXb3EKWsInQ"
               },
               {
                 "id": "4",
@@ -1169,7 +1169,7 @@
                 "subtitle": "Opportunities & Lifestyle",
                 "duration": "02:30",
                 "photo": "/destination/aus.jpg",
-                "embed": "https://www.youtube.com/embed/ysz5S6PUM-U"
+                "embed": "https://www.youtube.com/embed/LXb3EKWsInQ"
               }
             ]
           }
@@ -1391,8 +1391,8 @@
                   "titlePrefix": "What is a ",
                   "titleHighlight": "Student Visa?",
                   "paragraphs": [
-                    "A student visa allows you to study in another country. Whether you are planning a short course or a full degree program, we provide complete assistance to make your academic journey smooth and stress-free.",
-                    "Our expert team guides you through the entire process — from choosing the right institution to document preparation, application submission, and follow-ups with the embassy."
+                    "A student visa allows you to study in another country. Whether you are planning a short course or a full degree program, we provide complete assistance to make your academic journey smooth and stress-free A student visa allows you to study in another country. Whether you are planning a short course or a full degree program, we provide complete assistance to make your academic journey smooth and stress-free..",
+                    "Our expert team guides you through the entire process — from choosing the right institution to document preparation, application submission, and follow-ups with the embassy A student visa allows you to study in another country. Whether you are planning a short course or a full degree program, we provide complete assistance to make your academic journey smooth and stress-free.."
                   ],
                   "image": "/about/a3.jpg",
                   "floatingBadge": {
@@ -1542,7 +1542,7 @@
                   "titleHighlight": "Work Visa?",
                   "paragraphs": [
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
-                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free. A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free." 
                   ],
                   "image": "/destination/canada.jpg",
                   "floatingBadge": {
@@ -1692,7 +1692,7 @@
                   "titleHighlight": "Business Visa?",
                   "paragraphs": [
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
-                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free."
                   ],
                   "image": "/destination/nz.jpg",
                   "floatingBadge": {
@@ -1842,7 +1842,7 @@
                   "titleHighlight": "Family Visa?",
                   "paragraphs": [
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
-                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.."
                   ],
                   "image": "/destination/usa.jpg",
                   "floatingBadge": {
@@ -1991,7 +1991,7 @@
                   "titlePrefix": "What is a ",
                   "titleHighlight": "Permanent Residency?",
                   "paragraphs": [
-                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
+                    "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free. Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy. Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy.",
                     "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy."
                   ],
                   "image": "/services/s2.jpg",
@@ -3714,6 +3714,15 @@
                     "number": "02",
                     "title": "Gather Documents",
                     "description": "Prepare your passport, photographs, bank statements, itinerary, and any other required paperwork."
+                  }, {
+                    "number": "03",
+                    "title": "French Riviera - Nice",
+                    "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Mont Saint-Michel",
+                    "description": "This historic island commune is one of France's most unique attractions. With its medieval abbey, picturesque views, and rich history, Mont Saint-Michel is a UNESCO World Heritage Site and a must-see destination. The island's magical atmosphere and breathtaking surroundings make it a truly unforgettable experience."
                   }
                 ],
                 "quote": "A well-prepared application is the first step toward a successful visa approval."
@@ -3758,6 +3767,15 @@
                     "number": "02",
                     "title": "Sydney Opera House",
                     "description": "A marvel of modern architecture and the most recognizable landmark in Australia."
+                  }, {
+                    "number": "03",
+                    "title": "French Riviera - Nice",
+                    "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Mont Saint-Michel",
+                    "description": "This historic island commune is one of France's most unique attractions. With its medieval abbey, picturesque views, and rich history, Mont Saint-Michel is a UNESCO World Heritage Site and a must-see destination. The island's magical atmosphere and breathtaking surroundings make it a truly unforgettable experience."
                   }
                 ],
                 "quote": "There's nothing quite like the Australian outback and its coastal wonders."
@@ -3802,6 +3820,15 @@
                     "number": "02",
                     "title": "Post-Graduation Work Options",
                     "description": "Canada offers excellent pathways for students to work after they graduate and eventually apply for PR."
+                  }, {
+                    "number": "03",
+                    "title": "French Riviera - Nice",
+                    "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Mont Saint-Michel",
+                    "description": "This historic island commune is one of France's most unique attractions. With its medieval abbey, picturesque views, and rich history, Mont Saint-Michel is a UNESCO World Heritage Site and a must-see destination. The island's magical atmosphere and breathtaking surroundings make it a truly unforgettable experience."
                   }
                 ],
                 "quote": "Choosing to study in Canada is an investment in a brighter, global future."
@@ -3846,6 +3873,15 @@
                     "number": "02",
                     "title": "Keep Digital Copies",
                     "description": "Always have digital copies of your passport, visa, and itinerary stored securely in the cloud."
+                  }, {
+                    "number": "03",
+                    "title": "French Riviera - Nice",
+                    "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Mont Saint-Michel",
+                    "description": "This historic island commune is one of France's most unique attractions. With its medieval abbey, picturesque views, and rich history, Mont Saint-Michel is a UNESCO World Heritage Site and a must-see destination. The island's magical atmosphere and breathtaking surroundings make it a truly unforgettable experience."
                   }
                 ],
                 "quote": "A smart traveler is a happy traveler. Always plan ahead."
@@ -3890,6 +3926,15 @@
                     "number": "02",
                     "title": "Processing Times",
                     "description": "Be aware of the latest expected processing times to avoid delays in your travel plans."
+                  }, {
+                    "number": "03",
+                    "title": "French Riviera - Nice",
+                    "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
+                  },
+                  {
+                    "number": "04",
+                    "title": "Mont Saint-Michel",
+                    "description": "This historic island commune is one of France's most unique attractions. With its medieval abbey, picturesque views, and rich history, Mont Saint-Michel is a UNESCO World Heritage Site and a must-see destination. The island's magical atmosphere and breathtaking surroundings make it a truly unforgettable experience."
                   }
                 ],
                 "quote": "Staying updated with immigration laws is the key to a successful journey to the UK."
@@ -4063,28 +4108,28 @@
                 {
                   "id": "facebook",
                   "icon": "FaFacebookF",
-                  "href": "#",
+                  "href": "https://www.facebook.com",
                   "bgColor": "#1877F2",
                   "textColor": "#ffffff"
                 },
                 {
                   "id": "twitter",
-                  "icon": "FaTwitter",
-                  "href": "#",
+                  "icon": "FaXTwitter",
+                  "href": "https://www.twitter.com",
                   "bgColor": "#1DA1F2",
                   "textColor": "#ffffff"
                 },
                 {
                   "id": "linkedin",
                   "icon": "FaLinkedinIn",
-                  "href": "#",
+                  "href": "https://www.linkedin.com",
                   "bgColor": "#0A66C2",
                   "textColor": "#ffffff"
                 },
                 {
                   "id": "whatsapp",
                   "icon": "FaWhatsapp",
-                  "href": "#",
+                  "href": "https://www.whatsapp.com",
                   "bgColor": "#25D366",
                   "textColor": "#ffffff"
                 },
