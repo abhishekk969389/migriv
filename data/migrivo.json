@@ -103,7 +103,7 @@
               },
               {
                 "id": "3",
-                "label": "Visa Services",
+                "label": "Services",
                 "href": "/service",
                 "children": [
                   {
@@ -120,21 +120,22 @@
                     "id": "3-4",
                     "label": "Business Visa",
                     "href": "/visa-services/business"
-                  }, {
-                "id": "4",
-                "label": "Family Visa",
-                "href": "/visa-services/family"
-              },
-              {
-                "id": "5",
-                "label": "Tourist Visa",
-                "href": "/visa-services/tourist"
-              },
-              {
-                "id": "6",
-                "label": "PR & Immigration",
-                "href": "/visa-services/permanent-residency"
-              }
+                  },
+                  {
+                    "id": "4",
+                    "label": "Family Visa",
+                    "href": "/visa-services/family"
+                  },
+                  {
+                    "id": "5",
+                    "label": "Tourist Visa",
+                    "href": "/visa-services/tourist"
+                  },
+                  {
+                    "id": "6",
+                    "label": "PR & Immigration",
+                    "href": "/visa-services/permanent-residency"
+                  }
                 ]
               },
               {
@@ -1542,7 +1543,7 @@
                   "titleHighlight": "Work Visa?",
                   "paragraphs": [
                     "A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free.",
-                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free. A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free." 
+                    "Our expert team guides you through the entire process — from choosing the right visa type to document preparation, application submission, and follow-ups with the embassy A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free. A tourist visa allows you to travel to another country for leisure, vacation, family visits or short-term travel. Whether you are planning a holiday, exploring new destinations, or visiting friends and relatives, we provide complete assistance to make your travel smooth and stress-free."
                   ],
                   "image": "/destination/canada.jpg",
                   "floatingBadge": {
@@ -2527,42 +2528,42 @@
                   "items": [
                     {
                       "image": "/destination/usa.jpg",
-                      "title": "Top Destination 1",
+                      "title": "Niagara Falls",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/about/a1.jpg",
-                      "title": "Top Destination 2",
+                      "title": "Banff National Park",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/about/a2.jpg",
-                      "title": "Top Destination 3",
+                      "title": "CN Tower",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/about/a3.jpg",
-                      "title": "Top Destination 4",
+                      "title": "Old Quebec",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
                       "image": "/destination/aus.jpg",
-                      "title": "Top Destination 5",
+                      "title": "Whistler",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/destination/canada.jpg",
-                      "title": "Top Destination 6",
+                      "title": "Stanley Park",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/destination/germany.jpg",
-                      "title": "Top Destination 7",
+                      "title": "Parliament Hill",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/destination/nz.jpg",
-                      "title": "Top Destination 8",
+                      "title": "Victoria Inner Harbour",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
                   ]
@@ -2725,42 +2726,42 @@
                   "items": [
                     {
                       "image": "/services/s2.jpg",
-                      "title": "Top Destination 1",
+                      "title": "Statue of Liberty",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/services/s3.jpg",
-                      "title": "Top Destination 2",
+                      "title": "Grand Canyon",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/services/s4.jpg",
-                      "title": "Top Destination 3",
+                      "title": "Yellowstone National Park",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/services/s5.jpg",
-                      "title": "Top Destination 4",
+                      "title": "Golden Gate Bridge",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
                       "image": "/destination/uk.jpg",
-                      "title": "Top Destination 5",
+                      "title": "Times Square",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/destination/aus.jpg",
-                      "title": "Top Destination 6",
+                      "title": "Yosemite National Park",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/destination/germany.jpg",
-                      "title": "Top Destination 7",
+                      "title": "Mount Rushmore",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/destination/nz.jpg",
-                      "title": "Top Destination 8",
+                      "title": "Las Vegas Strip",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
                   ]
@@ -2923,42 +2924,42 @@
                   "items": [
                     {
                       "image": "/about/a3.jpg",
-                      "title": "Top Destination 1",
+                      "title": "Tower of London",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/destination/aus.jpg",
-                      "title": "Top Destination 2",
+                      "title": "Stonehenge",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/destination/canada.jpg",
-                      "title": "Top Destination 3",
+                      "title": "British Museum",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/destination/germany.jpg",
-                      "title": "Top Destination 4",
+                      "title": "Big Ben",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
                       "image": "/destination/nz.jpg",
-                      "title": "Top Destination 5",
+                      "title": "Buckingham Palace",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/destination/uk.jpg",
-                      "title": "Top Destination 6",
+                      "title": "Edinburgh Castle",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/destination/usa.jpg",
-                      "title": "Top Destination 7",
+                      "title": "Roman Baths",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/services/s1.jpg",
-                      "title": "Top Destination 8",
+                      "title": "Lake District",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
                   ]
@@ -3121,42 +3122,42 @@
                   "items": [
                     {
                       "image": "/services/s4.jpg",
-                      "title": "Top Destination 1",
+                      "title": "Sydney Opera House",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/services/s5.jpg",
-                      "title": "Top Destination 2",
+                      "title": "Great Barrier Reef",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/services/s1.jpg",
-                      "title": "Top Destination 3",
+                      "title": "Uluru-Kata Tjuta National Park",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/services/s2.jpg",
-                      "title": "Top Destination 4",
+                      "title": "Sydney Harbour Bridge",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
                       "image": "/services/s3.jpg",
-                      "title": "Top Destination 5",
+                      "title": "Bondi Beach",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/services/s4.jpg",
-                      "title": "Top Destination 6",
+                      "title": "Great Ocean Road",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/about/a1.jpg",
-                      "title": "Top Destination 7",
+                      "title": "Kakadu National Park",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/about/a2.jpg",
-                      "title": "Top Destination 8",
+                      "title": "Daintree Rainforest",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
                   ]
@@ -3319,42 +3320,42 @@
                   "items": [
                     {
                       "image": "/destination/canada.jpg",
-                      "title": "Top Destination 1",
+                      "title": "Brandenburg Gate",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/destination/germany.jpg",
-                      "title": "Top Destination 2",
+                      "title": "Neuschwanstein Castle",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/destination/nz.jpg",
-                      "title": "Top Destination 3",
+                      "title": "Cologne Cathedral",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/destination/uk.jpg",
-                      "title": "Top Destination 4",
+                      "title": "Black Forest",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
                       "image": "/destination/usa.jpg",
-                      "title": "Top Destination 5",
+                      "title": "Miniatur Wunderland",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/services/s1.jpg",
-                      "title": "Top Destination 6",
+                      "title": "Berlin Wall",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/services/s2.jpg",
-                      "title": "Top Destination 7",
+                      "title": "Museum Island",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/services/s3.jpg",
-                      "title": "Top Destination 8",
+                      "title": "Zugspitze",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
                   ]
@@ -3517,42 +3518,42 @@
                   "items": [
                     {
                       "image": "/services/s5.jpg",
-                      "title": "Top Destination 1",
+                      "title": "Milford Sound",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/about/a1.jpg",
-                      "title": "Top Destination 2",
+                      "title": "Hobbiton Movie Set",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/about/a2.jpg",
-                      "title": "Top Destination 3",
+                      "title": "Aoraki / Mount Cook",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/about/a3.jpg",
-                      "title": "Top Destination 4",
+                      "title": "Rotorua Geothermal Parks",
                       "text": "A beautiful coastal city surrounded by nature."
                     },
                     {
                       "image": "/about/a1.jpg",
-                      "title": "Top Destination 5",
+                      "title": "Waitomo Glowworm Caves",
                       "text": "World-famous natural wonder with stunning views."
                     },
                     {
                       "image": "/about/a2.jpg",
-                      "title": "Top Destination 6",
+                      "title": "Tongariro National Park",
                       "text": "A modern city with iconic landmarks and vibrant culture."
                     },
                     {
                       "image": "/about/a3.jpg",
-                      "title": "Top Destination 7",
+                      "title": "Bay of Islands",
                       "text": "Breathtaking landscapes and outdoor adventures."
                     },
                     {
                       "image": "/destination/aus.jpg",
-                      "title": "Top Destination 8",
+                      "title": "Franz Josef Glacier",
                       "text": "A beautiful coastal city surrounded by nature."
                     }
                   ]
@@ -3714,7 +3715,8 @@
                     "number": "02",
                     "title": "Gather Documents",
                     "description": "Prepare your passport, photographs, bank statements, itinerary, and any other required paperwork."
-                  }, {
+                  },
+                  {
                     "number": "03",
                     "title": "French Riviera - Nice",
                     "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
@@ -3767,7 +3769,8 @@
                     "number": "02",
                     "title": "Sydney Opera House",
                     "description": "A marvel of modern architecture and the most recognizable landmark in Australia."
-                  }, {
+                  },
+                  {
                     "number": "03",
                     "title": "French Riviera - Nice",
                     "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
@@ -3820,7 +3823,8 @@
                     "number": "02",
                     "title": "Post-Graduation Work Options",
                     "description": "Canada offers excellent pathways for students to work after they graduate and eventually apply for PR."
-                  }, {
+                  },
+                  {
                     "number": "03",
                     "title": "French Riviera - Nice",
                     "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
@@ -3873,7 +3877,8 @@
                     "number": "02",
                     "title": "Keep Digital Copies",
                     "description": "Always have digital copies of your passport, visa, and itinerary stored securely in the cloud."
-                  }, {
+                  },
+                  {
                     "number": "03",
                     "title": "French Riviera - Nice",
                     "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
@@ -3926,7 +3931,8 @@
                     "number": "02",
                     "title": "Processing Times",
                     "description": "Be aware of the latest expected processing times to avoid delays in your travel plans."
-                  }, {
+                  },
+                  {
                     "number": "03",
                     "title": "French Riviera - Nice",
                     "description": "The French Riviera is known for its beautiful coastline, crystal-clear waters, and luxurious lifestyle. Cities like Nice, Cannes, and Monaco offer stunning beaches, charming old towns, and a vibrant nightlife. It's the perfect destination for those looking to relax, enjoy the Mediterranean sun, and experience the glamorous side of France."
