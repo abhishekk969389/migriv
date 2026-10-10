@@ -6,8 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/data/index";
 import type { MigrivoSubBannersData } from "@/data/index";
-import { FaHome } from "react-icons/fa";
-import { FiChevronRight } from "react-icons/fi";
+import { FiHome, FiChevronRight } from "react-icons/fi";
 
 /* ------------------------------ ANIMATIONS -------------------------------- */
 
@@ -101,31 +100,31 @@ export default function SubBanner({
           variants={crumbsContainer}
           className="mt-4 flex items-center justify-center gap-2 text-sm text-white/90 sm:mt-5 sm:text-base"
         >
-          <motion.div variants={crumb}>
-            <Link
-              href="/"
-              aria-label="Home"
-              className="block transition-colors hover:text-[#f26a0f]"
-            >
-              <FaHome size={16} />
-            </Link>
-          </motion.div>
-
           {displayBreadcrumbs.map((item, idx) => (
             <React.Fragment key={idx}>
-              <motion.span variants={crumb} className="flex items-center">
-                <FiChevronRight size={16} className="mx-0.5 text-white/60" />
-              </motion.span>
+              {idx > 0 && (
+                <motion.span variants={crumb} className="flex items-center">
+                  <FiChevronRight size={16} className="mx-0.5 text-white/60" />
+                </motion.span>
+              )}
               <motion.span variants={crumb}>
                 {item.href && !item.active ? (
                   <Link
                     href={item.href}
-                    className="font-medium transition-colors hover:text-[#f26a0f]"
+                    className="flex items-center font-medium transition-colors hover:text-[#f26a0f]"
                   >
+                    {idx === 0 && (item.label === "Home" || item.href === "/") && (
+                      <FiHome size={16} className="mr-1.5" />
+                    )}
                     {item.label}
                   </Link>
                 ) : (
-                  <span className="font-medium text-white">{item.label}</span>
+                  <span className="flex items-center font-medium text-white">
+                    {idx === 0 && (item.label === "Home" || item.href === "/") && (
+                      <FiHome size={16} className="mr-1.5" />
+                    )}
+                    {item.label}
+                  </span>
                 )}
               </motion.span>
             </React.Fragment>
