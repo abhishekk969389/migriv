@@ -1,0 +1,243 @@
+{
+  "reportRows": [
+    {
+      "file": "about/a1.webp",
+      "oldKB": "152.5 KB",
+      "newKB": "46.2 KB",
+      "oldDim": "658x1170",
+      "newDim": "532x946",
+      "quality": "q=40",
+      "status": "Compressed"
+    },
+    {
+      "file": "about/a2.jpg",
+      "oldKB": "47.1 KB",
+      "newKB": "47.1 KB",
+      "oldDim": "735x490",
+      "newDim": "735x490",
+      "quality": "Untouched",
+      "status": "OK (Skipped)"
+    },
+    {
+      "file": "about/a3.webp",
+      "oldKB": "53.0 KB",
+      "newKB": "31.7 KB",
+      "oldDim": "736x416",
+      "newDim": "736x416",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "banner-bg.webp",
+      "oldKB": "1869.2 KB",
+      "newKB": "47.9 KB",
+      "oldDim": "1933x813",
+      "newDim": "1600x673",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "cta-banner.webp",
+      "oldKB": "513.9 KB",
+      "newKB": "24.3 KB",
+      "oldDim": "755x422",
+      "newDim": "755x422",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "destination/aus.webp",
+      "oldKB": "103.4 KB",
+      "newKB": "47.6 KB",
+      "oldDim": "735x490",
+      "newDim": "735x490",
+      "quality": "q=45",
+      "status": "Compressed"
+    },
+    {
+      "file": "destination/canada.webp",
+      "oldKB": "145.9 KB",
+      "newKB": "47.3 KB",
+      "oldDim": "1200x800",
+      "newDim": "800x533",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "destination/germany.webp",
+      "oldKB": "123.8 KB",
+      "newKB": "45.3 KB",
+      "oldDim": "1024x1024",
+      "newDim": "800x800",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "destination/nz.webp",
+      "oldKB": "190.9 KB",
+      "newKB": "47.0 KB",
+      "oldDim": "1000x1500",
+      "newDim": "700x1050",
+      "quality": "q=60",
+      "status": "Compressed"
+    },
+    {
+      "file": "destination/uk.webp",
+      "oldKB": "317.1 KB",
+      "newKB": "47.5 KB",
+      "oldDim": "1200x1799",
+      "newDim": "567x850",
+      "quality": "q=45",
+      "status": "Compressed"
+    },
+    {
+      "file": "destination/usa.webp",
+      "oldKB": "81.4 KB",
+      "newKB": "45.9 KB",
+      "oldDim": "735x490",
+      "newDim": "735x490",
+      "quality": "q=65",
+      "status": "Compressed"
+    },
+    {
+      "file": "footer-bg.webp",
+      "oldKB": "734.5 KB",
+      "newKB": "47.5 KB",
+      "oldDim": "2048x768",
+      "newDim": "1600x600",
+      "quality": "q=60",
+      "status": "Compressed"
+    },
+    {
+      "file": "logo.webp",
+      "oldKB": "840.6 KB",
+      "newKB": "29.2 KB",
+      "oldDim": "1983x793",
+      "newDim": "500x200",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "services/s1.webp",
+      "oldKB": "78.6 KB",
+      "newKB": "45.5 KB",
+      "oldDim": "735x490",
+      "newDim": "735x490",
+      "quality": "q=65",
+      "status": "Compressed"
+    },
+    {
+      "file": "services/s2.webp",
+      "oldKB": "66.7 KB",
+      "newKB": "23.5 KB",
+      "oldDim": "970x647",
+      "newDim": "800x534",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "services/s3.webp",
+      "oldKB": "54.5 KB",
+      "newKB": "27.5 KB",
+      "oldDim": "735x490",
+      "newDim": "735x490",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "services/s4.webp",
+      "oldKB": "53.0 KB",
+      "newKB": "31.7 KB",
+      "oldDim": "736x416",
+      "newDim": "736x416",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "services/s5.jpg",
+      "oldKB": "25.2 KB",
+      "newKB": "25.2 KB",
+      "oldDim": "612x344",
+      "newDim": "612x344",
+      "quality": "Untouched",
+      "status": "OK (Skipped)"
+    },
+    {
+      "file": "subbanner.webp",
+      "oldKB": "1797.9 KB",
+      "newKB": "28.0 KB",
+      "oldDim": "2170x725",
+      "newDim": "1600x535",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "tes/t1.jpg",
+      "oldKB": "28.3 KB",
+      "newKB": "28.3 KB",
+      "oldDim": "598x399",
+      "newDim": "598x399",
+      "quality": "Untouched",
+      "status": "OK (Skipped)"
+    },
+    {
+      "file": "tes/t2.webp",
+      "oldKB": "121.3 KB",
+      "newKB": "36.4 KB",
+      "oldDim": "1199x799",
+      "newDim": "800x533",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "tes/t3.webp",
+      "oldKB": "88.5 KB",
+      "newKB": "22.5 KB",
+      "oldDim": "1024x1024",
+      "newDim": "800x800",
+      "quality": "q=75",
+      "status": "Compressed"
+    },
+    {
+      "file": "tes/t4.jpg",
+      "oldKB": "43.9 KB",
+      "newKB": "43.9 KB",
+      "oldDim": "736x736",
+      "newDim": "736x736",
+      "quality": "Untouched",
+      "status": "OK (Skipped)"
+    },
+    {
+      "file": "thanku-banner.webp",
+      "oldKB": "2340.3 KB",
+      "newKB": "47.7 KB",
+      "oldDim": "1672x941",
+      "newDim": "1049x590",
+      "quality": "q=40",
+      "status": "Compressed"
+    }
+  ],
+  "extensionReplacements": {
+    "/about/a1.jpg": "/about/a1.webp",
+    "/about/a3.jpg": "/about/a3.webp",
+    "/banner-bg.png": "/banner-bg.webp",
+    "/cta-banner.png": "/cta-banner.webp",
+    "/destination/aus.jpg": "/destination/aus.webp",
+    "/destination/canada.jpg": "/destination/canada.webp",
+    "/destination/germany.jpg": "/destination/germany.webp",
+    "/destination/nz.jpg": "/destination/nz.webp",
+    "/destination/uk.jpg": "/destination/uk.webp",
+    "/destination/usa.jpg": "/destination/usa.webp",
+    "/footer-bg.jpg": "/footer-bg.webp",
+    "/logo.png": "/logo.webp",
+    "/services/s1.jpg": "/services/s1.webp",
+    "/services/s2.jpg": "/services/s2.webp",
+    "/services/s3.jpg": "/services/s3.webp",
+    "/services/s4.jpg": "/services/s4.webp",
+    "/subbanner.png": "/subbanner.webp",
+    "/tes/t2.jpg": "/tes/t2.webp",
+    "/tes/t3.jpg": "/tes/t3.webp",
+    "/thanku-banner.png": "/thanku-banner.webp"
+  },
+  "bannerDeleted": true
+}

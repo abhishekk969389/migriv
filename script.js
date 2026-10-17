@@ -4,10 +4,10 @@ const raw = fs.readFileSync('data/migrivo.json', 'utf8');
 let data = JSON.parse(raw);
 
 // Available images
-const aboutImages = ['/about/a1.jpg', '/about/a2.jpg', '/about/a3.jpg'];
-const destinationImages = ['/destination/aus.jpg', '/destination/canada.jpg', '/destination/germany.jpg', '/destination/nz.jpg', '/destination/uk.jpg', '/destination/usa.jpg'];
-const serviceImages = ['/services/s1.jpg', '/services/s2.jpg', '/services/s3.jpg', '/services/s4.jpg', '/services/s5.jpg'];
-const tesImages = ['/tes/t1.jpg', '/tes/t2.jpg', '/tes/t3.jpg', '/tes/t4.jpg'];
+const aboutImages = ['/about/a1.webp', '/about/a2.jpg', '/about/a3.webp'];
+const destinationImages = ['/destination/aus.webp', '/destination/canada.webp', '/destination/germany.webp', '/destination/nz.webp', '/destination/uk.webp', '/destination/usa.webp'];
+const serviceImages = ['/services/s1.webp', '/services/s2.webp', '/services/s3.webp', '/services/s4.webp', '/services/s5.jpg'];
+const tesImages = ['/tes/t1.jpg', '/tes/t2.webp', '/tes/t3.webp', '/tes/t4.jpg'];
 const allImages = [...aboutImages, ...destinationImages, ...serviceImages, ...tesImages];
 
 let counters = {
